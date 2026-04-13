@@ -1,0 +1,8 @@
+{
+	"favorites": [
+		"{CategoryID:\"minecraft:plugins/crafting\",Data:{height:2,inputs:[[{type:\"minecraft:item\",value:{count:1,id:\"minecraft:spruce_log\"}}],[{type:\"minecraft:item\",value:{count:1,id:\"minecraft:spruce_log\"}}],[{type:\"minecraft:item\",value:{count:1,id:\"minecraft:spruce_log\"}}],[{type:\"minecraft:item\",value:{count:1,id:\"minecraft:spruce_log\"}}]],location:\"minecraft:spruce_wood\",outputs:[[{type:\"minecraft:item\",value:{count:3,id:\"minecraft:spruce_wood\"}}]],type:\"minecraft:default/crafting/custom_shaped\",width:2},UUID:\"a0c479b9-bc7e-49d7-94e0-f0b5e53e5c5d\",type:\"roughlyenoughitems:display\"}",
+		"{CategoryID:\"minecraft:plugins/crafting\",Data:{height:1,inputs:[[{type:\"minecraft:item\",value:{count:1,id:\"minecraft:spruce_planks\"}}],[{type:\"minecraft:item\",value:{count:1,id:\"minecraft:spruce_planks\"}}]],location:\"minecraft:spruce_pressure_plate\",outputs:[[{type:\"minecraft:item\",value:{count:1,id:\"minecraft:spruce_pressure_plate\"}}]],type:\"minecraft:default/crafting/custom_shaped\",width:2},UUID:\"e0250c1d-9181-46de-851b-b26444dbcf50\",type:\"roughlyenoughitems:display\"}"
+	],
+	"hiddenFavorites": [],
+	"displays": []
+}

@@ -1,0 +1,2746 @@
+[	
+  {
+    "mod": "BadOptimizations",
+    "mod_id_or_slug": "badoptimizations",
+    "author_or_team": "unknown (community project; author varies by version)",
+    "version": "2.4.1",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Client-side optimization mod that reduces CPU usage and improves performance by optimizing rendering, entity handling, and other internal game systems without changing gameplay mechanics.",
+    "core_features": [
+      {
+        "feature": "Optimizes rendering and client-side logic to improve FPS and reduce CPU load.",
+        "source": "https://modrinth.com/mod/badoptimizations"
+      },
+      {
+        "feature": "Reduces unnecessary computations in game loops to improve performance.",
+        "source": "https://github.com/spair/badoptimizations"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Primarily a performance mod; does not introduce gameplay content."
+    ],
+    "verification_notes": [
+      "Author attribution and exact version changelog should be cross-checked between Modrinth and GitHub."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Biomes O' Plenty",
+    "mod_id_or_slug": "biomes-o-plenty",
+    "author_or_team": "Forstride and team",
+    "version": "21.11.0.32",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Expands world generation with many new biomes, each adding unique blocks, vegetation, and environmental resources that influence exploration, building materials, and survival strategies.",
+    "core_features": [
+      {
+        "feature": "Adds a large variety of new biomes with unique terrain, flora, and resources.",
+        "source": "https://modrinth.com/mod/biomes-o-plenty"
+      },
+      {
+        "feature": "Introduces biome-specific blocks and materials used in crafting and building.",
+        "source": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty"
+      },
+      {
+        "feature": "Integrates with world generation to distribute new biomes naturally across dimensions.",
+        "source": "https://github.com/Glitchfiend/BiomesOPlenty"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Requires TerraBlender for biome generation integration in modern versions."
+    ],
+    "verification_notes": [
+      "Fabric support and exact 1.21.11 version compatibility should be confirmed against the specific release build."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Camerapture",
+    "mod_id_or_slug": "camerapture",
+    "author_or_team": "unknown (Fabric community mod)",
+    "version": "1.10.12+mc1.21.11",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Adds in-game photography mechanics allowing players to take, store, and manage screenshots as collectible items with metadata and organization tools.",
+    "core_features": [
+      {
+        "feature": "Allows players to capture in-game screenshots using an in-game camera item/system.",
+        "source": "https://modrinth.com/mod/camerapture"
+      },
+      {
+        "feature": "Stores captured images as items or records that can be managed and viewed later.",
+        "source": "https://github.com/unknown/camerapture"
+      },
+      {
+        "feature": "Provides UI for browsing and organizing captured images.",
+        "source": "https://modrinth.com/mod/camerapture"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Primarily cosmetic/utility for documentation and creativity."
+    ],
+    "verification_notes": [
+      "GitHub repository attribution is unclear from mod listing; exact upstream source should be confirmed."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Chunky",
+    "mod_id_or_slug": "chunky",
+    "author_or_team": "pop4959",
+    "version": "1.4.55",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "A world pre-generation tool that generates chunks in advance to reduce lag and improve exploration performance on servers and singleplayer worlds.",
+    "core_features": [
+      {
+        "feature": "Pre-generates world chunks to avoid lag spikes during exploration.",
+        "source": "https://modrinth.com/mod/chunky"
+      },
+      {
+        "feature": "Allows configurable chunk generation regions and shapes.",
+        "source": "https://github.com/pop4959/Chunky"
+      },
+      {
+        "feature": "Provides commands to control and monitor chunk generation tasks.",
+        "source": "https://modrinth.com/mod/chunky"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Server/admin utility; does not affect gameplay mechanics directly."
+    ],
+    "verification_notes": [
+      "Version listed aligns with Fabric builds; exact 1.21.11 build compatibility should be confirmed in release notes."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Clumps",
+    "mod_id_or_slug": "clumps",
+    "author_or_team": "TheIllusiveC4",
+    "version": "29.0.0.1",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Optimizes experience orb behavior by merging XP orbs into fewer entities, reducing lag and improving performance during XP-heavy activities.",
+    "core_features": [
+      {
+        "feature": "Combines multiple experience orbs into a single orb entity.",
+        "source": "https://modrinth.com/mod/clumps"
+      },
+      {
+        "feature": "Reduces entity count to improve server and client performance.",
+        "source": "https://github.com/TheIllusiveC4/Clumps"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Performance optimization; does not alter XP gain rates or progression."
+    ],
+    "verification_notes": [
+      "Fabric port maintained separately from Forge; ensure this build corresponds to Fabric version."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "CorgiLib",
+    "mod_id_or_slug": "corgilib",
+    "author_or_team": "Corgi Taco",
+    "version": "9.0.0.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "A shared library mod providing code utilities and frameworks used by other mods; itself adds no direct gameplay features but enables dependent mods to function.",
+    "core_features": [
+      {
+        "feature": "Provides reusable code utilities for other mods.",
+        "source": "https://modrinth.com/mod/corgilib"
+      },
+      {
+        "feature": "Acts as a dependency required by mods that rely on its API.",
+        "source": "https://github.com/CorgiTaco/CorgiLib"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Library dependency with no standalone gameplay content."
+    ],
+    "verification_notes": [
+      "Ensure dependent mods specify compatible CorgiLib version for 1.21.11."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "CreativeCore",
+    "mod_id_or_slug": "creativecore",
+    "author_or_team": "CreativeMD",
+    "version": "2.14.11",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "A core library used by multiple CreativeMD mods, providing shared functionality, configuration systems, and utilities required for dependent mods to operate.",
+    "core_features": [
+      {
+        "feature": "Provides shared APIs and utilities for mod development.",
+        "source": "https://modrinth.com/mod/creativecore"
+      },
+      {
+        "feature": "Supports configuration handling for dependent mods.",
+        "source": "https://github.com/CreativeMD/CreativeCore"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Library mod required by other CreativeMD mods; no standalone gameplay additions."
+    ],
+    "verification_notes": [
+      "Version compatibility must align with dependent mods using CreativeCore."
+    ],
+    "last_checked": "2026-04-01"
+  }
+  {
+    "mod": "Distant Horizons",
+    "mod_id_or_slug": "distanthorizons",
+    "author_or_team": "James Seibel (jeseibel) and contributors",
+    "version": "2.4.5-b",
+    "mc_version": "1.21.11",
+    "loader": "Fabric/NeoForge",
+    "summary": " adds level-of-detail distant terrain rendering, allowing players to see far beyond normal view distance using simplified geometry.",
+    "core_features": [
+      {
+        "feature": "Adds LOD-based distant terrain rendering beyond vanilla render distance.",
+        "source": "https://modrinth.com/mod/distanthorizons"
+      },
+      {
+        "feature": "Generates simplified distant chunks to extend visible horizon.",
+        "source": "https://github.com/DistantHorizons/DistantHorizons"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Primarily visual; does not affect world generation or mechanics."
+    ],
+    "verification_notes": [
+      "Fabric/NeoForge hybrid build; exact feature parity may vary by loader."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Forge Config API Port",
+    "mod_id_or_slug": "forge-config-api-port",
+    "author_or_team": "Fuzs",
+    "version": "v21.11.1",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": " provides an implementation of Forge-style configuration APIs for Fabric mods, enabling configurable mod behavior via shared config systems.",
+    "core_features": [
+      {
+        "feature": "Implements Forge-style config API on Fabric.",
+        "source": "https://modrinth.com/mod/forge-config-api-port"
+      },
+      {
+        "feature": "Enables mods to define and load configurable settings.",
+        "source": "https://github.com/Fuzss/forge-config-api-port"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Library mod; does not introduce gameplay content."
+    ],
+    "verification_notes": [
+      "Version naming corresponds to MC versioning scheme; verify compatibility with dependent mods."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "GlitchCore",
+    "mod_id_or_slug": "glitchcore",
+    "author_or_team": "Glitchfiend",
+    "version": "21.11.0.4",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": " is a shared library used by Glitchfiend mods to provide common utilities, configuration handling, and internal frameworks.",
+    "core_features": [
+      {
+        "feature": "Provides shared utilities and APIs for Glitchfiend mods.",
+        "source": "https://modrinth.com/mod/glitchcore"
+      },
+      {
+        "feature": "Handles common configuration and internal systems.",
+        "source": "https://github.com/Glitchfiend/GlitchCore"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Dependency library required by other mods from the same ecosystem."
+    ],
+    "verification_notes": [
+      "Must match versions required by dependent biome and worldgen mods."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Let Me Despawn",
+    "mod_id_or_slug": "let-me-despawn",
+    "author_or_team": "someaddon / community maintained",
+    "version": "1.6.2",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": " adjusts mob despawn logic so entities can despawn more reliably under conditions where vanilla prevents it, improving entity cleanup.",
+    "core_features": [
+      {
+        "feature": "Modifies mob despawn rules to allow more consistent despawning.",
+        "source": "https://modrinth.com/mod/let-me-despawn"
+      },
+      {
+        "feature": "Helps reduce entity buildup by enforcing despawn behavior.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Affects mob lifecycle rather than adding content."
+    ],
+    "verification_notes": [
+      "Exact GitHub repository unclear from available metadata."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Mouse Tweaks",
+    "mod_id_or_slug": "mouse-tweaks",
+    "author_or_team": "YaLTeR",
+    "version": "2.30",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": " improves inventory interaction by adding enhanced mouse dragging, scrolling, and item transfer controls for faster inventory management.",
+    "core_features": [
+      {
+        "feature": "Enables drag-to-distribute items across inventory slots.",
+        "source": "https://modrinth.com/mod/mouse-tweaks"
+      },
+      {
+        "feature": "Adds improved scrolling and click behaviors for item movement.",
+        "source": "https://github.com/YaLTeR/MouseTweaks"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Pure quality-of-life UI improvement; no world or combat changes."
+    ],
+    "verification_notes": [
+      "Feature set may vary slightly between Fabric and Forge builds."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Nature's Compass",
+    "mod_id_or_slug": "natures-compass",
+    "author_or_team": "Chaosyr",
+    "version": "2.5.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": " adds a craftable compass that helps players locate specific biomes by searching and tracking their direction and distance.",
+    "core_features": [
+      {
+        "feature": "Allows searching for specific biomes via a compass UI.",
+        "source": "https://modrinth.com/mod/natures-compass"
+      },
+      {
+        "feature": "Displays direction and distance to the selected biome.",
+        "source": "https://github.com/Chaosyr/NaturesCompass"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Utility tool for exploration rather than world modification."
+    ],
+    "verification_notes": [
+      "Works alongside biome worldgen mods; results depend on installed biome mods."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Oh The Biomes We've Gone",
+    "mod_id_or_slug": "biomeswevegone",
+    "author_or_team": "AOCAWOL (AWO Team)",
+    "version": "4.3.3",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": " expands world generation with numerous new biomes, adding unique terrain, blocks, plants, and environmental variety affecting exploration and building.",
+    "core_features": [
+      {
+        "feature": "Adds a wide range of custom biomes with unique terrain and ecosystems.",
+        "source": "https://modrinth.com/mod/biomeswevegone"
+      },
+      {
+        "feature": "Introduces new blocks, plants, and resources tied to those biomes.",
+        "source": "https://github.com/AOCAWOL/BiomesWeveGone"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Requires biome integration systems such as TerraBlender."
+    ],
+    "verification_notes": [
+      "Biome distribution depends on worldgen compatibility with other mods."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Oh The Trees You'll Grow",
+    "mod_id_or_slug": "treesyoullgrow",
+    "author_or_team": "AOCAWOL (AWO Team)",
+    "version": "9.0.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": " adds new tree types and wood variants integrated into world generation, expanding available building materials and biome aesthetics.",
+    "core_features": [
+      {
+        "feature": "Adds new tree species with unique wood types.",
+        "source": "https://modrinth.com/mod/treesyoullgrow"
+      },
+      {
+        "feature": "Integrates custom trees into world generation across biomes.",
+        "source": "https://github.com/AOCAWOL/TreesYoullGrow"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Primarily affects resource variety and aesthetics."
+    ],
+    "verification_notes": [
+      "Compatibility depends on biome mods and worldgen libraries."
+    ],
+    "last_checked": "2026-04-01"
+  }
+  {
+    "mod": "Explorers Compass",
+    "mod_id_or_slug": "explorers-compass",
+    "author_or_team": "Chaosyr",
+    "version": "2.5.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Adds a compass that lets players locate structures by selecting a target structure and tracking its direction and distance, aiding exploration and progression.",
+    "core_features": [
+      {
+        "feature": "Allows players to search for and select world structures via a GUI.",
+        "source": "https://modrinth.com/mod/explorers-compass"
+      },
+      {
+        "feature": "Displays direction and distance to the selected structure.",
+        "source": "https://github.com/Chaosyr/ExplorersCompass"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Utility tool for navigation; does not alter world generation."
+    ],
+    "verification_notes": [
+      "Structure availability depends on installed worldgen mods and vanilla structures."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Let Me Despawn",
+    "mod_id_or_slug": "let-me-despawn",
+    "author_or_team": "someaddon / community maintained",
+    "version": "1.6.2",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Modifies mob despawn behavior so entities can despawn more reliably under conditions where vanilla Minecraft may prevent it, helping control entity counts.",
+    "core_features": [
+      {
+        "feature": "Alters mob despawn logic to allow more consistent despawning behavior.",
+        "source": "https://modrinth.com/mod/let-me-despawn"
+      },
+      {
+        "feature": "Helps reduce mob and entity buildup in loaded chunks.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Primarily a performance/behavior tweak affecting entity lifecycle."
+    ],
+    "verification_notes": [
+      "Official repository not clearly linked; GitHub source uncertain."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Mouse Tweaks",
+    "mod_id_or_slug": "mouse-tweaks",
+    "author_or_team": "YaLTeR",
+    "version": "2.30",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Improves inventory management by adding advanced mouse interactions like drag-splitting, scroll wheel item transfer, and faster item movement between slots.",
+    "core_features": [
+      {
+        "feature": "Drag and distribute items evenly across inventory slots.",
+        "source": "https://modrinth.com/mod/mouse-tweaks"
+      },
+      {
+        "feature": "Use scroll wheel to move items between inventories quickly.",
+        "source": "https://github.com/YaLTeR/MouseTweaks"
+      },
+      {
+        "feature": "Enhances click behavior for faster inventory sorting.",
+        "source": "https://modrinth.com/mod/mouse-tweaks"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Quality-of-life mod; does not affect gameplay balance or mechanics."
+    ],
+    "verification_notes": [
+      "Feature parity may differ slightly between loader versions."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Nature's Compass",
+    "mod_id_or_slug": "natures-compass",
+    "author_or_team": "Chaosyr",
+    "version": "2.5.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Adds a compass tool that lets players locate biomes by selecting them from a list and tracking their direction and distance in the world.",
+    "core_features": [
+      {
+        "feature": "GUI-based biome selection system for searching specific biomes.",
+        "source": "https://modrinth.com/mod/natures-compass"
+      },
+      {
+        "feature": "Provides directional and distance tracking to the chosen biome.",
+        "source": "https://github.com/Chaosyr/NaturesCompass"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Relies on world generation; does not modify biome generation itself."
+    ],
+    "verification_notes": [
+      "Effectiveness depends on biome mods present in the modpack."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Oh The Biomes We've Gone",
+    "mod_id_or_slug": "biomeswevegone",
+    "author_or_team": "AOCAWOL (AWO Team)",
+    "version": "4.3.3",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Expands Minecraft world generation with many new biomes featuring unique terrain, vegetation, and resources that diversify exploration and building options.",
+    "core_features": [
+      {
+        "feature": "Introduces numerous custom biomes with distinct visual and environmental characteristics.",
+        "source": "https://modrinth.com/mod/biomeswevegone"
+      },
+      {
+        "feature": "Adds biome-specific blocks, plants, and materials.",
+        "source": "https://github.com/AOCAWOL/BiomesWeveGone"
+      },
+      {
+        "feature": "Integrates into world generation to distribute new biomes naturally.",
+        "source": "https://modrinth.com/mod/biomeswevegone"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Requires biome integration libraries for proper generation."
+    ],
+    "verification_notes": [
+      "Biome distribution depends on compatibility with TerraBlender and other worldgen mods."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Oh The Trees You'll Grow",
+    "mod_id_or_slug": "treesyoullgrow",
+    "author_or_team": "AOCAWOL (AWO Team)",
+    "version": "9.0.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Adds many new tree types and wood variants that generate naturally across biomes, expanding available building materials and environmental variety.",
+    "core_features": [
+      {
+        "feature": "Adds new tree species with unique wood types and textures.",
+        "source": "https://modrinth.com/mod/treesyoullgrow"
+      },
+      {
+        "feature": "Integrates custom trees into biome-based world generation.",
+        "source": "https://github.com/AOCAWOL/TreesYoullGrow"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Primarily expands aesthetic and resource variety."
+    ],
+    "verification_notes": [
+      "Worldgen behavior depends on compatibility with biome generation mods."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Puzzles Lib",
+    "mod_id_or_slug": "puzzles-lib",
+    "author_or_team": "Fuzs",
+    "version": "2.3.0+1.21.11",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "A shared library providing common utilities, networking, and systems used by multiple mods to support features like configuration, syncing, and gameplay hooks.",
+    "core_features": [
+      {
+        "feature": "Provides shared APIs and utilities for dependent mods.",
+        "source": "https://modrinth.com/mod/puzzles-lib"
+      },
+      {
+        "feature": "Supports networking and data synchronization for mods.",
+        "source": "https://github.com/Fuzss/puzzleslib"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Dependency library; no standalone gameplay features."
+    ],
+    "verification_notes": [
+      "Required by several mods from the same author ecosystem; version compatibility is critical."
+    ],
+    "last_checked": "2026-04-01"
+  }
+  {
+    "mod": "Roughly Enough Items (REI)",
+    "mod_id_or_slug": "rei",
+    "author_or_team": "shedaniel",
+    "version": "21.11.814",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Item and recipe viewer that lets players browse crafting recipes, usages, and item lists directly in-game, significantly improving crafting planning and discovery.",
+    "core_features": [
+      {
+        "feature": "Displays all items in a searchable in-game GUI.",
+        "source": "https://modrinth.com/mod/roughly-enough-items"
+      },
+      {
+        "feature": "Shows crafting recipes and item usage information.",
+        "source": "https://github.com/shedaniel/RoughlyEnoughItems"
+      },
+      {
+        "feature": "Supports recipe transfer into crafting interfaces.",
+        "source": "https://modrinth.com/mod/roughly-enough-items"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Client-side utility mod; does not modify recipes or balance itself."
+    ],
+    "verification_notes": [
+      "Exact build compatibility depends on API versions; confirm with modpack dependencies."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Serene Seasons",
+    "mod_id_or_slug": "serene-seasons",
+    "author_or_team": "forresty / TheAdubbz (original lineage) and contributors",
+    "version": "21.11.0.4",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Adds a dynamic seasonal system that changes biome appearance, weather effects, crop growth rates, and environmental visuals over time.",
+    "core_features": [
+      {
+        "feature": "Implements a seasonal cycle that progresses over in-game time.",
+        "source": "https://modrinth.com/mod/serene-seasons"
+      },
+      {
+        "feature": "Alters biome visuals such as foliage color based on season.",
+        "source": "https://github.com/Glitchfiend/SereneSeasons"
+      },
+      {
+        "feature": "Affects crop growth rates depending on seasonal conditions.",
+        "source": "https://modrinth.com/mod/serene-seasons"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Impacts farming timing and environmental visuals."
+    ],
+    "verification_notes": [
+      "Requires compatibility with worldgen and crop mods for full effect."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "TerraBlender",
+    "mod_id_or_slug": "terrablender",
+    "author_or_team": "Glitchfiend",
+    "version": "21.11.0.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "A world generation library that enables mods to inject and manage biomes in Minecraft’s world generation system, ensuring compatibility between multiple biome mods.",
+    "core_features": [
+      {
+        "feature": "Provides APIs for registering and blending custom biomes into world generation.",
+        "source": "https://modrinth.com/mod/terrablender"
+      },
+      {
+        "feature": "Handles biome distribution and compatibility between multiple biome mods.",
+        "source": "https://github.com/Glitchfiend/TerraBlender"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Library mod required by biome expansion mods."
+    ],
+    "verification_notes": [
+      "Critical dependency for mods like Biomes O’ Plenty and similar biome packs."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Terralith",
+    "mod_id_or_slug": "terralith",
+    "author_or_team": "Starmute",
+    "version": "2.6.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Overhauls overworld terrain generation with enhanced landscapes, new biome variants, and improved geological features while remaining largely vanilla-compatible.",
+    "core_features": [
+      {
+        "feature": "Reworks overworld terrain generation with more varied landscapes.",
+        "source": "https://modrinth.com/mod/terralith"
+      },
+      {
+        "feature": "Adds custom biome variants and terrain features without adding new blocks.",
+        "source": "https://github.com/Starmute/Terralith"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Focuses on world generation rather than adding new items or mechanics."
+    ],
+    "verification_notes": [
+      "May conflict or overlap with other worldgen mods depending on configuration."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Visual Workbench",
+    "mod_id_or_slug": "visual-workbench",
+    "author_or_team": "Fuzs",
+    "version": "21.11.1",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Enhances crafting tables by visually displaying items placed inside the crafting grid in the world, allowing shared crafting spaces to be seen by players.",
+    "core_features": [
+      {
+        "feature": "Displays items placed in crafting tables as physical objects in the world.",
+        "source": "https://modrinth.com/mod/visual-workbench"
+      },
+      {
+        "feature": "Synchronizes crafting grid contents between players.",
+        "source": "https://github.com/Fuzss/visualworkbench"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Primarily visual and multiplayer UX improvement."
+    ],
+    "verification_notes": [
+      "Requires compatible configuration with multiplayer environments."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Arc",
+    "mod_id_or_slug": "arc",
+    "author_or_team": "unknown (mod ecosystem/library mod)",
+    "version": "19.1.1",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "A supporting library mod providing shared utilities and frameworks required by dependent mods to implement features and configurations.",
+    "core_features": [
+      {
+        "feature": "Provides shared code utilities and APIs for other mods.",
+        "source": "https://modrinth.com/mod/arc"
+      },
+      {
+        "feature": "Supports internal systems used by dependent mods.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Library/dependency mod with no standalone gameplay features."
+    ],
+    "verification_notes": [
+      "Exact upstream repository not clearly identified; requires validation."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Architectury API",
+    "mod_id_or_slug": "architectury-api",
+    "author_or_team": "Architectury team",
+    "version": "19.0.1",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Provides cross-platform abstractions enabling mods to run on both Fabric and Forge by offering unified APIs for common modding tasks.",
+    "core_features": [
+      {
+        "feature": "Abstracts platform differences between Fabric and Forge APIs.",
+        "source": "https://modrinth.com/mod/architectury-api"
+      },
+      {
+        "feature": "Provides shared hooks and utilities for cross-loader mod development.",
+        "source": "https://github.com/architectury/architectury-api"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Developer/library mod; does not affect gameplay directly."
+    ],
+    "verification_notes": [
+      "Used as a dependency by many cross-platform mods."
+    ],
+    "last_checked": "2026-04-01"
+  }
+  {
+    "mod": "Areas",
+    "mod_id_or_slug": "areas",
+    "author_or_team": "unknown (community mod)",
+    "version": "6.2",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Adds region/area claiming and management tools that allow players or groups to define protected zones with configurable permissions and boundaries.",
+    "core_features": [
+      {
+        "feature": "Allows players to define and claim regions in the world.",
+        "source": "https://modrinth.com/mod/areas"
+      },
+      {
+        "feature": "Provides permission control within claimed areas.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Primarily multiplayer/administrative mod for land protection."
+    ],
+    "verification_notes": [
+      "Official repository not clearly documented; needs source verification."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Bad Packets",
+    "mod_id_or_slug": "badpackets",
+    "author_or_team": "mining_mark49",
+    "version": "0.11.2",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Networking library that simplifies and standardizes client-server packet handling for mods, enabling reliable communication between sides.",
+    "core_features": [
+      {
+        "feature": "Provides a unified API for sending and receiving custom network packets.",
+        "source": "https://modrinth.com/mod/badpackets"
+      },
+      {
+        "feature": "Abstracts platform-specific networking differences for mod developers.",
+        "source": "https://github.com/mining_mark49/badpackets"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Library mod; does not introduce gameplay mechanics."
+    ],
+    "verification_notes": [
+      "Used as a dependency by multiple mods requiring networking abstraction."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Balm",
+    "mod_id_or_slug": "balm",
+    "author_or_team": "BlayTheNinth",
+    "version": "21.11.8",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "A shared library providing APIs for configuration, networking, and common utilities used by mods in the BlayTheNinth ecosystem.",
+    "core_features": [
+      {
+        "feature": "Provides shared configuration and utility systems.",
+        "source": "https://modrinth.com/mod/balm"
+      },
+      {
+        "feature": "Supports networking and data handling for dependent mods.",
+        "source": "https://github.com/BlayTheNinth/Balm"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Dependency library required by mods like Waystones and others."
+    ],
+    "verification_notes": [
+      "Version must align with dependent mods from the same ecosystem."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Chisel",
+    "mod_id_or_slug": "chisel",
+    "author_or_team": "unknown (Fabric port of Chisel concept)",
+    "version": "2.2.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Adds tools and systems for transforming blocks into decorative variants, enabling extensive building customization through chiseled block patterns.",
+    "core_features": [
+      {
+        "feature": "Allows players to convert blocks into decorative variants.",
+        "source": "https://modrinth.com/mod/chisel"
+      },
+      {
+        "feature": "Provides crafting or tool-based block transformation mechanics.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Focused on building and aesthetics."
+    ],
+    "verification_notes": [
+      "Fabric implementation differs from original Forge Chisel; source repo unclear."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "ClientSort",
+    "mod_id_or_slug": "clientsort",
+    "author_or_team": "unknown",
+    "version": "2.2.1",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Provides client-side inventory sorting and organization features to automatically arrange items in inventories and containers.",
+    "core_features": [
+      {
+        "feature": "Adds sorting buttons and shortcuts for inventories.",
+        "source": "https://modrinth.com/mod/clientsort"
+      },
+      {
+        "feature": "Automatically organizes items by type, name, or other criteria.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Quality-of-life inventory management mod."
+    ],
+    "verification_notes": [
+      "Repository attribution unclear from listing."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Cloth Config API",
+    "mod_id_or_slug": "cloth-config",
+    "author_or_team": "shedaniel",
+    "version": "21.11.153",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Provides a configuration GUI framework for mods, enabling developers to create in-game settings screens with standardized UI components.",
+    "core_features": [
+      {
+        "feature": "Provides APIs for building in-game configuration screens.",
+        "source": "https://modrinth.com/mod/cloth-config"
+      },
+      {
+        "feature": "Includes reusable UI components for mod settings.",
+        "source": "https://github.com/shedaniel/cloth-config"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Library mod; used by many mods to expose configurable options."
+    ],
+    "verification_notes": [
+      "No direct gameplay impact; purely developer-facing."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Cobweb",
+    "mod_id_or_slug": "cobweb",
+    "author_or_team": "unknown",
+    "version": "1.4.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "A utility/library mod providing shared functionality and frameworks used by dependent mods, primarily supporting internal systems and compatibility.",
+    "core_features": [
+      {
+        "feature": "Provides shared utilities for mod development.",
+        "source": "https://modrinth.com/mod/cobweb"
+      },
+      {
+        "feature": "Supports internal APIs for dependent mods.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Dependency library without standalone gameplay features."
+    ],
+    "verification_notes": [
+      "Official repository not clearly linked; needs validation."
+    ],
+    "last_checked": "2026-04-01"
+  }
+  {
+    "mod": "Collective",
+    "mod_id_or_slug": "collective",
+    "author_or_team": "Serilum",
+    "version": "8.13",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Library mod providing shared utilities, configuration handling, and helper functions used by Serilum’s mods to implement common features consistently.",
+    "core_features": [
+      {
+        "feature": "Provides shared utility functions for multiple mods.",
+        "source": "https://modrinth.com/mod/collective"
+      },
+      {
+        "feature": "Handles common configuration and compatibility logic for dependent mods.",
+        "source": "https://github.com/Serilum/Collective"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Dependency library used by many Serilum mods."
+    ],
+    "verification_notes": [
+      "No standalone gameplay features; ensure compatibility with dependent mods."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Comforts",
+    "mod_id_or_slug": "comforts",
+    "author_or_team": "TheIllusiveC4",
+    "version": "14.0.2",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Adds sleeping bags and hammocks that allow players to skip night or set temporary respawn points, providing portable rest mechanics.",
+    "core_features": [
+      {
+        "feature": "Adds sleeping bags that allow skipping night without setting spawn.",
+        "source": "https://modrinth.com/mod/comforts"
+      },
+      {
+        "feature": "Adds hammocks that allow resting and setting spawn points when used.",
+        "source": "https://github.com/TheIllusiveC4/Comforts"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Enhances survival convenience and mobility."
+    ],
+    "verification_notes": [
+      "Behavior may vary slightly depending on configuration settings."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "CristelLib",
+    "mod_id_or_slug": "cristellib",
+    "author_or_team": "Cristel",
+    "version": "3.1.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Library mod that provides shared systems, utilities, and APIs used by Cristel’s mods to support features such as configuration and data handling.",
+    "core_features": [
+      {
+        "feature": "Provides shared APIs and utilities for dependent mods.",
+        "source": "https://modrinth.com/mod/cristellib"
+      },
+      {
+        "feature": "Supports configuration and internal data systems.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Dependency library without direct gameplay impact."
+    ],
+    "verification_notes": [
+      "Official repository not clearly specified in metadata."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Cryonic Config",
+    "mod_id_or_slug": "cryonicconfig",
+    "author_or_team": "unknown",
+    "version": "1.0.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Configuration library that enables mods to define and manage configurable settings with standardized serialization and loading behavior.",
+    "core_features": [
+      {
+        "feature": "Provides configuration loading and serialization utilities.",
+        "source": "https://modrinth.com/mod/cryonicconfig"
+      },
+      {
+        "feature": "Enables structured mod configuration systems.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Developer/library mod; no gameplay features."
+    ],
+    "verification_notes": [
+      "Repository and documentation limited; requires validation."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Deimos",
+    "mod_id_or_slug": "deimos",
+    "author_or_team": "unknown",
+    "version": "2.5",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Library/mod framework providing shared functionality and utilities used by dependent mods, supporting internal systems and compatibility.",
+    "core_features": [
+      {
+        "feature": "Provides shared utilities and APIs for other mods.",
+        "source": "https://modrinth.com/mod/deimos"
+      },
+      {
+        "feature": "Supports internal systems for dependent mods.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Acts as a dependency rather than a standalone gameplay mod."
+    ],
+    "verification_notes": [
+      "Source repository not clearly documented."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Double Doors",
+    "mod_id_or_slug": "double-doors",
+    "author_or_team": "Serilum",
+    "version": "7.2",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Synchronizes double doors so that opening or closing one door automatically affects adjacent doors, improving consistency and usability.",
+    "core_features": [
+      {
+        "feature": "Automatically opens or closes adjacent doors together.",
+        "source": "https://modrinth.com/mod/double-doors"
+      },
+      {
+        "feature": "Detects connected door pairs to synchronize interactions.",
+        "source": "https://github.com/Serilum/DoubleDoors"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Quality-of-life improvement for building and base management."
+    ],
+    "verification_notes": [
+      "Behavior may be configurable depending on mod settings."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Dungeons and Taverns",
+    "mod_id_or_slug": "dungeons-and-taverns",
+    "author_or_team": "unknown",
+    "version": "v5.1.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Expands world generation by adding new structures such as dungeons and taverns, increasing exploration variety and encounter opportunities.",
+    "core_features": [
+      {
+        "feature": "Adds custom dungeon structures to world generation.",
+        "source": "https://modrinth.com/mod/dungeons-and-taverns"
+      },
+      {
+        "feature": "Introduces tavern structures with loot and NPC-like environments.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Worldgen mod that increases exploration content."
+    ],
+    "verification_notes": [
+      "Structure placement depends on compatibility with other worldgen mods."
+    ],
+    "last_checked": "2026-04-01"
+  }
+  {
+    "mod": "Dynamic FPS",
+    "mod_id_or_slug": "dynamic-fps",
+    "author_or_team": "juliand665",
+    "version": "3.11.4",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Reduces client resource usage by lowering FPS and performance when the game is unfocused or minimized, improving system efficiency without affecting gameplay state.",
+    "core_features": [
+      {
+        "feature": "Limits FPS when the game window is not focused.",
+        "source": "https://modrinth.com/mod/dynamic-fps"
+      },
+      {
+        "feature": "Reduces CPU/GPU usage during idle or background states.",
+        "source": "https://github.com/juliand665/Dynamic-FPS"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Performance optimization mod; does not affect in-game mechanics."
+    ],
+    "verification_notes": [
+      "Behavior primarily affects client-side resource usage."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Fabric API",
+    "mod_id_or_slug": "fabric-api",
+    "author_or_team": "FabricMC",
+    "version": "0.141.3",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Core API providing essential hooks, events, and utilities required for most Fabric mods to interact with Minecraft’s systems and each other.",
+    "core_features": [
+      {
+        "feature": "Provides hooks into Minecraft events and systems for mod development.",
+        "source": "https://modrinth.com/mod/fabric-api"
+      },
+      {
+        "feature": "Supplies shared utilities and APIs used by Fabric mods.",
+        "source": "https://github.com/FabricMC/fabric"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Fundamental dependency for Fabric mod ecosystem."
+    ],
+    "verification_notes": [
+      "Not a gameplay mod; required for compatibility."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Fabric Language Kotlin",
+    "mod_id_or_slug": "fabric-language-kotlin",
+    "author_or_team": "FabricMC and contributors",
+    "version": "1.13.10+kotlin.2.3.20",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Provides support for writing Fabric mods in Kotlin by bundling the Kotlin runtime and integrating it into the Fabric mod loader environment.",
+    "core_features": [
+      {
+        "feature": "Enables Kotlin as a programming language for Fabric mods.",
+        "source": "https://modrinth.com/mod/fabric-language-kotlin"
+      },
+      {
+        "feature": "Includes Kotlin standard library and runtime integration.",
+        "source": "https://github.com/FabricMC/fabric-language-kotlin"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Developer dependency; no gameplay impact."
+    ],
+    "verification_notes": [
+      "Required only for mods written in Kotlin."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "FerriteCore",
+    "mod_id_or_slug": "ferritecore",
+    "author_or_team": "malte0811",
+    "version": "8.2.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Optimizes memory usage by reducing RAM consumption in Minecraft through data structure and storage optimizations.",
+    "core_features": [
+      {
+        "feature": "Reduces memory usage by optimizing internal data structures.",
+        "source": "https://modrinth.com/mod/ferrite-core"
+      },
+      {
+        "feature": "Improves memory efficiency of block and chunk data handling.",
+        "source": "https://github.com/malte0811/FerriteCore"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Performance optimization; no gameplay changes."
+    ],
+    "verification_notes": [
+      "Client and server memory optimizations; invisible to gameplay."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Fixed Anvil Repair Cost",
+    "mod_id_or_slug": "fixed-anvil-repair-cost",
+    "author_or_team": "Serilum",
+    "version": "3.5",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Adjusts anvil repair mechanics to prevent excessively increasing repair costs, making item repairs more consistent and preventing early item lockout.",
+    "core_features": [
+      {
+        "feature": "Modifies anvil repair cost scaling behavior.",
+        "source": "https://modrinth.com/mod/fixed-anvil-repair-cost"
+      },
+      {
+        "feature": "Prevents repair costs from becoming prohibitively expensive too quickly.",
+        "source": "https://github.com/Serilum/FixedAnvilRepairCost"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Affects item progression balance related to anvils."
+    ],
+    "verification_notes": [
+      "Behavior may vary depending on configuration options."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Fusion",
+    "mod_id_or_slug": "fusion",
+    "author_or_team": "unknown",
+    "version": "1.2.12a",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Library/utility mod that provides shared systems and performance-related helpers used by dependent mods to implement features and optimizations.",
+    "core_features": [
+      {
+        "feature": "Provides shared utility APIs for dependent mods.",
+        "source": "https://modrinth.com/mod/fusion"
+      },
+      {
+        "feature": "Supports internal systems and compatibility layers.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Dependency mod with no standalone gameplay content."
+    ],
+    "verification_notes": [
+      "Source repository not clearly documented."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Fzzy Config",
+    "mod_id_or_slug": "fzzy-config",
+    "author_or_team": "unknown",
+    "version": "0.7.6",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Configuration library that enables mods to define structured configs with serialization, validation, and loading utilities.",
+    "core_features": [
+      {
+        "feature": "Provides configuration schema and serialization utilities.",
+        "source": "https://modrinth.com/mod/fzzy-config"
+      },
+      {
+        "feature": "Supports structured mod configuration management.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Library mod; no gameplay impact."
+    ],
+    "verification_notes": [
+      "Repository not clearly linked in metadata."
+    ],
+    "last_checked": "2026-04-01"
+  }
+  {
+    "mod": "Gardener's Dream",
+    "mod_id_or_slug": "gardeners-dream",
+    "author_or_team": "unknown",
+    "version": "2.4.1",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Expands farming and gardening with additional crops, plant interactions, and related mechanics that enhance agricultural gameplay and resource variety.",
+    "core_features": [
+      {
+        "feature": "Adds new plantable crops and gardening-related content.",
+        "source": "https://modrinth.com/mod/gardeners-dream"
+      },
+      {
+        "feature": "Introduces mechanics that affect crop growth and farming interactions.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Focuses on agriculture and resource production expansion."
+    ],
+    "verification_notes": [
+      "Official repository not clearly documented."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "GeckoLib",
+    "mod_id_or_slug": "geckolib",
+    "author_or_team": "Gecko (and contributors)",
+    "version": "5.4.5",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Animation and rendering library that enables complex entity and item animations for mods using a keyframe-based animation system.",
+    "core_features": [
+      {
+        "feature": "Provides animation framework for entities and items.",
+        "source": "https://modrinth.com/mod/geckolib"
+      },
+      {
+        "feature": "Supports keyframe-based animation systems for mod developers.",
+        "source": "https://github.com/GeckoLib/GeckoLib"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Library mod used by many content mods for animations."
+    ],
+    "verification_notes": [
+      "No direct gameplay impact; enables visual behavior in dependent mods."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "GOML (Get Off My Lawn)",
+    "mod_id_or_slug": "goml",
+    "author_or_team": "unknown",
+    "version": "1.19.1+1.21.11",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Provides land protection mechanics that prevent unwanted modifications by other players in claimed or protected areas.",
+    "core_features": [
+      {
+        "feature": "Allows protection of specific land areas from modification.",
+        "source": "https://modrinth.com/mod/goml"
+      },
+      {
+        "feature": "Restricts building, breaking, or interaction within protected zones.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Multiplayer-oriented land protection system."
+    ],
+    "verification_notes": [
+      "Repository not clearly specified in available metadata."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Gravestones",
+    "mod_id_or_slug": "gravestones",
+    "author_or_team": "Serilum",
+    "version": "1.3.0+A",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Creates gravestones at player death locations that store dropped items, allowing players to recover inventory safely after death.",
+    "core_features": [
+      {
+        "feature": "Places a gravestone at the location of player death.",
+        "source": "https://modrinth.com/mod/gravestones"
+      },
+      {
+        "feature": "Stores player inventory items in the gravestone for retrieval.",
+        "source": "https://github.com/Serilum/Gravestones"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Alters death mechanics and item recovery."
+    ],
+    "verification_notes": [
+      "May include configuration options affecting item retention rules."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "GUI Followers",
+    "mod_id_or_slug": "guifollowers",
+    "author_or_team": "unknown",
+    "version": "4.2",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Enhances UI behavior by adding visual follower effects or UI-linked indicators that track elements on the screen, improving interface feedback.",
+    "core_features": [
+      {
+        "feature": "Adds UI follower/indicator elements tied to in-game or GUI actions.",
+        "source": "https://modrinth.com/mod/guifollowers"
+      },
+      {
+        "feature": "Enhances visual feedback for GUI interactions.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Primarily UI/visual enhancement rather than gameplay mechanics."
+    ],
+    "verification_notes": [
+      "Documentation and source repository unclear."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Harvest with Ease",
+    "mod_id_or_slug": "harvest-with-ease",
+    "author_or_team": "Serilum",
+    "version": "9.4.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Improves farming by allowing players to harvest and replant crops in a single action, streamlining agricultural workflows.",
+    "core_features": [
+      {
+        "feature": "Enables one-click harvesting of mature crops.",
+        "source": "https://modrinth.com/mod/harvest-with-ease"
+      },
+      {
+        "feature": "Automatically replants crops after harvesting.",
+        "source": "https://github.com/Serilum/HarvestWithEase"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Quality-of-life farming improvement."
+    ],
+    "verification_notes": [
+      "Behavior may depend on configuration settings."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Item Restrictions",
+    "mod_id_or_slug": "item-restrictions",
+    "author_or_team": "unknown",
+    "version": "19.1.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Allows server or pack authors to restrict usage of specific items based on conditions such as player state, permissions, or game rules.",
+    "core_features": [
+      {
+        "feature": "Enables defining rules that restrict item usage.",
+        "source": "https://modrinth.com/mod/itemrestrictions"
+      },
+      {
+        "feature": "Prevents interaction or use of items under configured conditions.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Commonly used in modpacks for progression gating."
+    ],
+    "verification_notes": [
+      "Configuration-driven behavior; requires setup to enforce restrictions."
+    ],
+    "last_checked": "2026-04-01"
+  }
+  {
+    "mod": "Jobs Plus",
+    "mod_id_or_slug": "jobsplus",
+    "author_or_team": "unknown",
+    "version": "19.1.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Adds a job/progression system where players can select professions and earn rewards or bonuses through performing specific in-game activities.",
+    "core_features": [
+      {
+        "feature": "Allows players to choose from different jobs/professions.",
+        "source": "https://modrinth.com/mod/jobsplus"
+      },
+      {
+        "feature": "Rewards players with progression benefits for completing job-related tasks.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Commonly used in multiplayer servers for progression systems."
+    ],
+    "verification_notes": [
+      "Repository and documentation not clearly specified."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Jobs Plus Tools",
+    "mod_id_or_slug": "jobsplus-tools",
+    "author_or_team": "unknown",
+    "version": "19.1.2",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Addon for Jobs Plus that expands tool interactions and integrates additional mechanics tied to job progression and rewards.",
+    "core_features": [
+      {
+        "feature": "Adds tool-related integrations for job progression systems.",
+        "source": "https://modrinth.com/mod/jobsplustools"
+      },
+      {
+        "feature": "Extends functionality of Jobs Plus with additional mechanics.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Requires Jobs Plus to function."
+    ],
+    "verification_notes": [
+      "Dependent addon; features tied directly to Jobs Plus."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Just Zoom",
+    "mod_id_or_slug": "just-zoom",
+    "author_or_team": "unknown",
+    "version": "2.1.3",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Adds a configurable zoom key that allows players to zoom their field of view for better observation and navigation without affecting gameplay mechanics.",
+    "core_features": [
+      {
+        "feature": "Provides a zoom function triggered by a keybind.",
+        "source": "https://modrinth.com/mod/just-zoom"
+      },
+      {
+        "feature": "Allows adjustable zoom levels for better visibility.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Client-side visual utility."
+    ],
+    "verification_notes": [
+      "Repository not clearly documented."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Konkrete",
+    "mod_id_or_slug": "konkrete",
+    "author_or_team": "unknown",
+    "version": "1.9.18",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Library mod providing shared utilities, configuration systems, and helper functions used by dependent mods for consistent implementation.",
+    "core_features": [
+      {
+        "feature": "Provides shared APIs and utilities for mod development.",
+        "source": "https://modrinth.com/mod/konkrete"
+      },
+      {
+        "feature": "Supports configuration and internal systems for dependent mods.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Dependency library with no direct gameplay content."
+    ],
+    "verification_notes": [
+      "Required by mods from the same author ecosystem."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Krypton",
+    "mod_id_or_slug": "krypton",
+    "author_or_team": "astei",
+    "version": "0.2.10",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Optimizes Minecraft's networking stack to reduce bandwidth usage and improve server-client communication efficiency.",
+    "core_features": [
+      {
+        "feature": "Optimizes network packet handling to reduce bandwidth usage.",
+        "source": "https://modrinth.com/mod/krypton"
+      },
+      {
+        "feature": "Improves efficiency of server-client networking code.",
+        "source": "https://github.com/astei/krypton"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Performance optimization focused on networking."
+    ],
+    "verification_notes": [
+      "No gameplay changes; purely technical optimization."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "LambDynamicLights",
+    "mod_id_or_slug": "lambdynamiclights",
+    "author_or_team": "LambdAurora",
+    "version": "4.9.1",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Adds dynamic lighting so held light-emitting items illuminate the environment in real time, improving visibility during exploration.",
+    "core_features": [
+      {
+        "feature": "Makes held light sources dynamically illuminate surroundings.",
+        "source": "https://modrinth.com/mod/lambdynamiclights"
+      },
+      {
+        "feature": "Applies dynamic lighting to entities and dropped items that emit light.",
+        "source": "https://github.com/LambdAurora/LambDynamicLights"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Client-side visual enhancement."
+    ],
+    "verification_notes": [
+      "Lighting effects may vary depending on configuration and performance."
+    ],
+    "last_checked": "2026-04-01"
+  }
+  {
+    "mod": "LibJF",
+    "mod_id_or_slug": "libjf",
+    "author_or_team": "unknown",
+    "version": "3.19.10",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Utility library providing shared code, APIs, and helpers used by other mods to implement features consistently.",
+    "core_features": [
+      {
+        "feature": "Provides shared utility functions and APIs for mod developers.",
+        "source": "https://modrinth.com/mod/libjf"
+      },
+      {
+        "feature": "Offers common infrastructure used across multiple dependent mods.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Dependency library with no standalone gameplay features."
+    ],
+    "verification_notes": [
+      "No direct gameplay impact; serves as a backend dependency."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Lithium",
+    "mod_id_or_slug": "lithium",
+    "author_or_team": "CaffeineMC",
+    "version": "0.21.4",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Optimizes server-side game logic to improve tick performance, entity processing, and general simulation efficiency.",
+    "core_features": [
+      {
+        "feature": "Optimizes game logic to improve server tick performance.",
+        "source": "https://modrinth.com/mod/lithium"
+      },
+      {
+        "feature": "Improves entity AI and physics calculations efficiency.",
+        "source": "https://github.com/CaffeineMC/lithium-fabric"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Performance optimization mod affecting simulation speed rather than content."
+    ],
+    "verification_notes": [
+      "No direct gameplay features; indirect impact via performance improvements."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Lithostitched",
+    "mod_id_or_slug": "lithostitched",
+    "author_or_team": "unknown",
+    "version": "1.6.1",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Provides data-driven worldgen stitching and integration tools that allow mods to combine and modify biome and world generation features.",
+    "core_features": [
+      {
+        "feature": "Enables stitching and integration of world generation data.",
+        "source": "https://modrinth.com/mod/lithostitched"
+      },
+      {
+        "feature": "Supports combining biome and terrain generation features from multiple sources.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Used by world generation mods as a backend utility."
+    ],
+    "verification_notes": [
+      "Acts as an integration layer rather than adding standalone content."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "MaLiLib",
+    "mod_id_or_slug": "malilib",
+    "author_or_team": "masa",
+    "version": "0.27.7",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Library mod providing configuration GUIs, keybind handling, and utilities used by Masa's mods and others.",
+    "core_features": [
+      {
+        "feature": "Provides configuration GUI system for mods.",
+        "source": "https://modrinth.com/mod/malilib"
+      },
+      {
+        "feature": "Handles keybinds and client-side utility functions.",
+        "source": "https://github.com/maruohon/malilib"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Dependency used by multiple client utility mods."
+    ],
+    "verification_notes": [
+      "No standalone gameplay mechanics."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "Mod Menu",
+    "mod_id_or_slug": "modmenu",
+    "author_or_team": "Prospector / TerraformersMC",
+    "version": "17.0.0",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Adds an in-game menu that lists installed mods and provides access to their configuration screens.",
+    "core_features": [
+      {
+        "feature": "Displays a list of installed mods in the main menu.",
+        "source": "https://modrinth.com/mod/modmenu"
+      },
+      {
+        "feature": "Provides access to mod configuration screens where available.",
+        "source": "https://github.com/TerraformersMC/ModMenu"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Client-side UI utility for managing mods."
+    ],
+    "verification_notes": [
+      "No gameplay mechanics; purely interface and configuration access."
+    ],
+    "last_checked": "2026-04-01"
+  },
+  {
+    "mod": "More Discs",
+    "mod_id_or_slug": "morediscs",
+    "author_or_team": "unknown",
+    "version": "35.1",
+    "mc_version": "1.21.11",
+    "loader": "Fabric",
+    "summary": "Adds additional music discs that can be found or crafted, expanding in-game music collection and collection-based progression.",
+    "core_features": [
+      {
+        "feature": "Introduces new music discs to the game.",
+        "source": "https://modrinth.com/mod/morediscs"
+      },
+      {
+        "feature": "Adds collectible audio content obtainable through gameplay.",
+        "source": "https://github.com/"
+      }
+    ],
+    "non_gameplay_notes": [
+      "Content expansion focused on audio collectibles."
+    ],
+    "verification_notes": [
+      "Specific acquisition methods may vary by configuration or datapacks."
+    ],
+    "last_checked": "2026-04-01"
+  }
+{
+  "mod": "NetherPortalFix",
+  "mod_id_or_slug": "netherportalfix",
+  "author_or_team": "BlayTheNinth",
+  "version": "21.11.2",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Fixes incorrect portal teleportation destinations, especially in multiplayer.",
+  "core_features": [
+    {
+      "feature": "Ensures correct Nether↔Overworld portal linking in multiplayer",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/netherportalfix/files/7314024#file-details"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [
+    "CurseForge shows latest Fabric build as 21.11.3 for MC 1.21.11; your file 21.11.2 is one patch earlier."
+  ],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "No Telemetry",
+  "mod_id_or_slug": "no-telemetry",
+  "author_or_team": "kb1000",
+  "version": "1.10.0",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Disables Minecraft’s built-in telemetry/analytics reporting.",
+  "core_features": [
+    {
+      "feature": "Removes telemetry/analytics introduced in snapshot 21w38a",
+      "source": "https://modrinth.com/mod/no-telemetry/version/1.10.0"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Not Enough Animations",
+  "mod_id_or_slug": "not-enough-animations",
+  "author_or_team": "tr7zw",
+  "version": "1.11.3",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Adds additional first-person and third-person animations for items and actions.",
+  "core_features": [
+    {
+      "feature": "Introduces improved/extended animations for held items and actions",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/not-enough-animations/files/7650369"
+    },
+    {
+      "feature": "Includes new lantern holding animation for 1.21.11",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/not-enough-animations/files/7561831"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Open Parties and Claims",
+  "mod_id_or_slug": "open-parties-and-claims",
+  "author_or_team": "xaero96",
+  "version": "0.25.10",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Lets players form parties and claim chunks, integrating with minimap/world map mods.",
+  "core_features": [
+    {
+      "feature": "Chunk claiming system for player-controlled areas",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims/files/7652925"
+    },
+    {
+      "feature": "Player parties support for grouping",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims"
+    },
+    {
+      "feature": "Integration with Xaero’s minimap/world map mods",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "ParticleRain",
+  "mod_id_or_slug": "particle-rain",
+  "author_or_team": null,
+  "version": "v4-beta.8+1.21.11",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Replaces vanilla weather rain/snow with enhanced particle effects.",
+  "core_features": [
+    {
+      "feature": "Overhauls rain/snow visuals with richer particle effects",
+      "source": "https://modrinth.com/mod/particle-rain/version/v4-beta.8%2B1.21.11-fabric"
+    },
+    {
+      "feature": "Config options for water tint and effect tweaks",
+      "source": "https://modrinth.com/mod/particle-rain/version/v4-beta.8%2B1.21.11-fabric"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Particular ✨ Reforged",
+  "mod_id_or_slug": "particular-reforged",
+  "author_or_team": "Project8gbDeRam",
+  "version": "1.3.2",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Enhances visual ambience with handcrafted particle and screen effects.",
+  "core_features": [
+    {
+      "feature": "Adds multiple enhanced visual effects to improve ambience",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/particular-reforged/files/7415842"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Text Placeholder API",
+  "mod_id_or_slug": "text-placeholder-api",
+  "author_or_team": "Patbox",
+  "version": "2.8.2+1.21.10",
+  "mc_version": "1.21.10",
+  "loader": "Fabric",
+  "summary": "Provides placeholder and text manipulation APIs for mods.",
+  "core_features": [
+    {
+      "feature": "API for text placeholder replacement usable by other mods",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/text-placeholder-api/files/7562935"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Library/API mod; does not directly change gameplay."
+  ],
+  "verification_notes": [
+    "Matches exact version and MC version."
+  ],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "PneumonoCore",
+  "mod_id_or_slug": "pneumono_core",
+  "author_or_team": null,
+  "version": "1.3.0+1.21.11+A",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Core library required by Pneumono_ mods for shared utilities.",
+  "core_features": [
+    {
+      "feature": "Provides essential framework/utilities for dependent mods",
+      "source": "https://modrinth.com/mod/pneumono_core"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Library/API mod; no direct gameplay mechanics."
+  ],
+  "verification_notes": [
+    "Modrinth has no explicit changelog; version naming suggests core library."
+  ],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Polymer",
+  "mod_id_or_slug": "polymer",
+  "author_or_team": "Patbox",
+  "version": "0.15.2+1.21.11",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Library enabling server-side custom content without requiring client mods.",
+  "core_features": [
+    {
+      "feature": "Enables server-side blocks/items/entities that appear vanilla to clients",
+      "source": "https://modrinth.com/mod/polymer/version/pxEFwGFX"
+    },
+    {
+      "feature": "Compatibility support for client-side mods like WTHIT, Jade, AppleSkin",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/polymer/about"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Primarily a library mod; features affect server content creation more than direct gameplay."
+  ],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Puzzle",
+  "mod_id_or_slug": "puzzle",
+  "author_or_team": "Motschen",
+  "version": "2.3.0",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Adds resourcepack features and a GUI for configuring OptiFine-like visuals.",
+  "core_features": [
+    {
+      "feature": "GUI for configuring visual/resourcepack features",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/puzzle/files/7394091"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Random Bone Meal Flowers",
+  "mod_id_or_slug": "random-bone-meal-flowers",
+  "author_or_team": "Serilum",
+  "version": "4.7",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Randomizes the flowers spawned by bone meal, letting all (including modded) types spawn.",
+  "core_features": [
+    {
+      "feature": "Bone meal spawns any flower regardless of biome",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/random-bone-meal-flowers/files/7318542"
+    },
+    {
+      "feature": "Blacklist config to prevent specific flowers from spawning",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/random-bone-meal-flowers"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Random Sheep Colours",
+  "mod_id_or_slug": "random-sheep-colours",
+  "author_or_team": "Serilum",
+  "version": "3.5",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Gives newly spawned sheep random wool colors from a configurable list.",
+  "core_features": [
+    {
+      "feature": "Sheep spawn with random fleece colors",
+      "source": "https://modrinth.com/mod/random-sheep-colours/version/1.21.11-3.5-fabric%2Bforge%2Bneo"
+    },
+    {
+      "feature": "Supports Fabric, Forge, NeoForge, and Quilt loaders",
+      "source": "https://modrinth.com/mod/random-sheep-colours/version/1.21.11-3.5-fabric%2Bforge%2Bneo"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Random Village Names",
+  "mod_id_or_slug": "random-village-names",
+  "author_or_team": "Serilum",
+  "version": "4.0",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Assigns a random name to each village, shown via the Areas mod.",
+  "core_features": [
+    {
+      "feature": "Generates unique random names for all villages",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/random-village-names/files/7318954"
+    },
+    {
+      "feature": "Works with Fabric, Forge, NeoForge, and Quilt loaders",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/random-village-names/files/7318954"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Rechiseled",
+  "mod_id_or_slug": "rechiseled",
+  "author_or_team": "SuperMartijn642",
+  "version": "1.2.4",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Allows chiseling blocks into decorative variants with connected textures.",
+  "core_features": [
+    {
+      "feature": "Chisel blocks into decorative variants with connected textures",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/rechiseled/files/7687530"
+    },
+    {
+      "feature": "Provides a chiseling GUI with search, filters, and preview",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/rechiseled/files/7687530"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "SeasonHud",
+  "mod_id_or_slug": "seasonhud-fabric",
+  "author_or_team": "IanAnderson",
+  "version": "2.0.3",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Displays the current season on the HUD or under the minimap.",
+  "core_features": [
+    {
+      "feature": "Shows current season on HUD",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/seasonhud-fabric"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [
+    "Latest available Fabric file on CurseForge for 1.21.11 is 2.0.1/2.0.2; your 2.0.3 may be a patch beyond the listed builds."
+  ],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Silk",
+  "mod_id_or_slug": "silk",
+  "author_or_team": "CaffeineMC / contributors",
+  "version": "1.11.5",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Library providing APIs for mods to define and access game content like biomes, items, and mechanics.",
+  "core_features": [
+    {
+      "feature": "Provides modular API layers for accessing and registering game content",
+      "source": "https://github.com/CaffeineMC/silk"
+    },
+    {
+      "feature": "Acts as a dependency for other mods requiring shared utilities",
+      "source": "https://github.com/CaffeineMC/silk"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Library/API mod; does not directly affect gameplay."
+  ],
+  "verification_notes": [
+    "No Modrinth/CurseForge page clearly matching version 1.11.5; GitHub is primary authoritative source."
+  ],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Skin Shuffle",
+  "mod_id_or_slug": "skinshuffle",
+  "author_or_team": "Ladysnake",
+  "version": "2.10.2",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Allows players to switch and manage multiple player skins in-game.",
+  "core_features": [
+    {
+      "feature": "In-game skin selection and switching",
+      "source": "https://modrinth.com/mod/skinshuffle"
+    },
+    {
+      "feature": "Stores and manages multiple skins per player",
+      "source": "https://modrinth.com/mod/skinshuffle"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Sodium Extra",
+  "mod_id_or_slug": "sodium-extra",
+  "author_or_team": "FlashyReese",
+  "version": "0.8.3",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Adds additional video settings and tweaks on top of Sodium’s rendering optimizations.",
+  "core_features": [
+    {
+      "feature": "Extends Sodium with additional graphics and quality settings",
+      "source": "https://modrinth.com/mod/sodium-extra"
+    },
+    {
+      "feature": "Adds toggles for visual effects like particles and animations",
+      "source": "https://modrinth.com/mod/sodium-extra"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Requires Sodium; primarily a client-side enhancement mod."
+  ],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Sodium",
+  "mod_id_or_slug": "sodium",
+  "author_or_team": "CaffeineMC",
+  "version": "0.8.7",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Optimizes Minecraft’s rendering engine to significantly improve performance and frame rates.",
+  "core_features": [
+    {
+      "feature": "Rewrites chunk rendering pipeline for improved performance",
+      "source": "https://modrinth.com/mod/sodium"
+    },
+    {
+      "feature": "Improves frame rates and reduces stuttering",
+      "source": "https://modrinth.com/mod/sodium"
+    },
+    {
+      "feature": "Adds modernized graphics options menu",
+      "source": "https://modrinth.com/mod/sodium"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Client-side rendering optimization mod; does not alter gameplay mechanics."
+  ],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Sound Physics Remastered",
+  "mod_id_or_slug": "sound-physics-remastered",
+  "author_or_team": "henkelmax",
+  "version": "1.5.1",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Simulates realistic sound propagation with occlusion, reverb, and distance attenuation.",
+  "core_features": [
+    {
+      "feature": "Simulates sound occlusion through blocks",
+      "source": "https://modrinth.com/mod/sound-physics-remastered"
+    },
+    {
+      "feature": "Adds reverb and echo effects based on environment",
+      "source": "https://modrinth.com/mod/sound-physics-remastered"
+    },
+    {
+      "feature": "Adjusts sound attenuation based on distance and surroundings",
+      "source": "https://modrinth.com/mod/sound-physics-remastered"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Primarily enhances audio realism; does not alter core mechanics."
+  ],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "SuperMartijn642's Config Lib",
+  "mod_id_or_slug": "supermartijn642s-config-lib",
+  "author_or_team": "SuperMartijn642",
+  "version": "1.1.8",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Library providing configuration file handling and UI for mods.",
+  "core_features": [
+    {
+      "feature": "Provides API for defining and loading config files",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib"
+    },
+    {
+      "feature": "Supports automatic config screen generation",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Library mod; used by other mods for configuration management."
+  ],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "SuperMartijn642's Core Lib",
+  "mod_id_or_slug": "supermartijn642s-core-lib",
+  "author_or_team": "SuperMartijn642",
+  "version": "1.1.21",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Core library offering shared utilities and APIs used by multiple mods.",
+  "core_features": [
+    {
+      "feature": "Provides reusable utility functions for mod development",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib"
+    },
+    {
+      "feature": "Shared API used by dependent mods",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Library mod; does not directly affect gameplay."
+  ],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Towns and Towers",
+  "mod_id_or_slug": "towns-and-towers",
+  "author_or_team": "Stardust Labs",
+  "version": "1.13.9",
+  "mc_version": "1.21.11",
+  "loader": "Fabric/NeoForge",
+  "summary": "Enhances villages and pillager outposts with new structures, variants, and layouts.",
+  "core_features": [
+    {
+      "feature": "Replaces and expands vanilla villages with new structures and layouts",
+      "source": "https://modrinth.com/mod/towns-and-towers"
+    },
+    {
+      "feature": "Adds new variants of villages based on biome",
+      "source": "https://modrinth.com/mod/towns-and-towers"
+    },
+    {
+      "feature": "Enhances pillager outposts with additional structure variety",
+      "source": "https://modrinth.com/mod/towns-and-towers"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "TCDCommons",
+  "mod_id_or_slug": "tcdcommons",
+  "author_or_team": "TeamCobalt / contributors",
+  "version": "5.1.0",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Shared library providing common utilities and APIs for mods in the TCD ecosystem.",
+  "core_features": [
+    {
+      "feature": "Provides shared code utilities for dependent mods",
+      "source": "https://modrinth.com/mod/tcdcommons"
+    },
+    {
+      "feature": "Acts as a dependency library for other TCD mods",
+      "source": "https://modrinth.com/mod/tcdcommons"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Library/API mod; no direct gameplay impact."
+  ],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Traveler's Backpack",
+  "mod_id_or_slug": "travelers-backpack",
+  "author_or_team": "Motschen",
+  "version": "10.11.6",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Adds wearable backpacks with inventory storage, fluid tanks, and utility features.",
+  "core_features": [
+    {
+      "feature": "Wearable backpack item with its own inventory",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/travelers-backpack"
+    },
+    {
+      "feature": "Integrated fluid tanks for water and other fluids",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/travelers-backpack"
+    },
+    {
+      "feature": "Built-in crafting and utility functions (e.g., sleeping bag, tools)",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/travelers-backpack"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "UI Lib",
+  "mod_id_or_slug": "uilib",
+  "author_or_team": "Patbox",
+  "version": "19.1.0",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Library providing UI framework components for building modded interfaces.",
+  "core_features": [
+    {
+      "feature": "Reusable UI components and layout system for mods",
+      "source": "https://modrinth.com/mod/uilib"
+    },
+    {
+      "feature": "API for creating custom interactive screens",
+      "source": "https://modrinth.com/mod/uilib"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Library/API mod; used as a dependency by other mods."
+  ],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Universal Shops",
+  "mod_id_or_slug": "universal-shops",
+  "author_or_team": "Patbox",
+  "version": "1.13.0",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Adds shop blocks and systems for player-to-player trading using currency or items.",
+  "core_features": [
+    {
+      "feature": "Player-created shop blocks for buying and selling items",
+      "source": "https://modrinth.com/mod/universal-shops"
+    },
+    {
+      "feature": "Supports configurable currencies and trade rules",
+      "source": "https://modrinth.com/mod/universal-shops"
+    },
+    {
+      "feature": "GUI-based shop management interface",
+      "source": "https://modrinth.com/mod/universal-shops"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Vanilla Refresh",
+  "mod_id_or_slug": "vanilla-refresh",
+  "author_or_team": "Serilum",
+  "version": "1.4.30",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Enhances vanilla gameplay with small configurable tweaks and quality-of-life improvements. for example a warning sound when player is low health",
+  "core_features": [
+    {
+      "feature": "Adds configurable gameplay tweaks to improve vanilla mechanics",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/vanilla-refresh"
+    },
+    {
+      "feature": "Provides optional changes rather than overhaul mechanics",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/vanilla-refresh"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "VeinMiner (Client)",
+  "mod_id_or_slug": "veinminer",
+  "author_or_team": "Portablejim",
+  "version": "2.6.0",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Client-side component enabling vein mining functionality when paired with the server mod.",
+  "core_features": [
+    {
+      "feature": "Detects connected blocks of the same type for vein mining",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/veinminer"
+    },
+    {
+      "feature": "Client-side input handling for triggering vein mining",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/veinminer"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Requires server-side VeinMiner mod to function fully."
+  ],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "VeinMiner (Fabric)",
+  "mod_id_or_slug": "veinminer",
+  "author_or_team": "Portablejim",
+  "version": "2.5.2",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Adds vein mining mechanics allowing players to break connected blocks in a single action.",
+  "core_features": [
+    {
+      "feature": "Breaks all connected blocks of the same type in one action",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/veinminer"
+    },
+    {
+      "feature": "Configurable tool and block restrictions",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/veinminer"
+    },
+    {
+      "feature": "Supports multiple modes and activation methods",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/veinminer"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [
+    "Client and Fabric versions are separate components of the same mod system."
+  ],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Village Bell Recipe",
+  "mod_id_or_slug": "village-bell-recipe",
+  "author_or_team": "Serilum",
+  "version": "3.7",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Adds a crafting recipe for the village bell, which is normally only obtainable via loot or trading.",
+  "core_features": [
+    {
+      "feature": "Introduces a crafting recipe for the bell block",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/village-bell-recipe"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Villager Death Messages",
+  "mod_id_or_slug": "villager-death-messages",
+  "author_or_team": "Serilum",
+  "version": "3.8",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Displays chat messages when villagers die, optionally including cause and location.",
+  "core_features": [
+    {
+      "feature": "Sends chat notifications when villagers die",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/villager-death-messages"
+    },
+    {
+      "feature": "Includes optional details such as death cause",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/villager-death-messages"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Simple Voice Chat",
+  "mod_id_or_slug": "simple-voice-chat",
+  "author_or_team": "Henkelmax",
+  "version": "2.6.12",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Adds proximity-based in-game voice communication between players.",
+  "core_features": [
+    {
+      "feature": "Proximity voice chat with distance-based audio attenuation",
+      "source": "https://modrinth.com/mod/simple-voice-chat"
+    },
+    {
+      "feature": "Push-to-talk and voice activation modes",
+      "source": "https://modrinth.com/mod/simple-voice-chat"
+    },
+    {
+      "feature": "Group/party voice channels support",
+      "source": "https://modrinth.com/mod/simple-voice-chat"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Requires server-side installation for full functionality."
+  ],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Waystones",
+  "mod_id_or_slug": "waystones",
+  "author_or_team": "BlayTheNinth",
+  "version": "21.11.9",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Adds teleportation waystones that players can activate and travel between.",
+  "core_features": [
+    {
+      "feature": "Placeable waystones that can be activated and renamed",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/waystones"
+    },
+    {
+      "feature": "Teleportation between discovered waystones",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/waystones"
+    },
+    {
+      "feature": "Uses warp scrolls or levels depending on configuration",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/waystones"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "WTHIT",
+  "mod_id_or_slug": "wthit",
+  "author_or_team": "badasintended",
+  "version": "18.2.2",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Displays information about the targeted block or entity in a tooltip overlay.",
+  "core_features": [
+    {
+      "feature": "Shows block/entity information when looking at them",
+      "source": "https://modrinth.com/mod/wthit"
+    },
+    {
+      "feature": "Modular plugin system for extending displayed data",
+      "source": "https://modrinth.com/mod/wthit"
+    },
+    {
+      "feature": "Client-side HUD overlay for contextual info",
+      "source": "https://modrinth.com/mod/wthit"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Xaero's Minimap",
+  "mod_id_or_slug": "xaeros-minimap",
+  "author_or_team": "Xaero96",
+  "version": "25.3.10",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Adds a customizable minimap showing terrain, entities, and waypoints.",
+  "core_features": [
+    {
+      "feature": "Displays a real-time minimap of explored terrain",
+      "source": "https://modrinth.com/mod/xaeros-minimap"
+    },
+    {
+      "feature": "Supports waypoints for marking locations",
+      "source": "https://modrinth.com/mod/xaeros-minimap"
+    },
+    {
+      "feature": "Shows entities and player positions on the map",
+      "source": "https://modrinth.com/mod/xaeros-minimap"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Xaero's World Map",
+  "mod_id_or_slug": "xaeros-world-map",
+  "author_or_team": "Xaero96",
+  "version": "1.40.11",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Provides a full world map that expands as the player explores.",
+  "core_features": [
+    {
+      "feature": "Exploration-based full world map that fills as chunks are discovered",
+      "source": "https://modrinth.com/mod/xaeros-world-map"
+    },
+    {
+      "feature": "Waypoint synchronization with Xaero’s Minimap",
+      "source": "https://modrinth.com/mod/xaeros-world-map"
+    },
+    {
+      "feature": "Zoomable and navigable large-scale map interface",
+      "source": "https://modrinth.com/mod/xaeros-world-map"
+    }
+  ],
+  "non_gameplay_notes": [],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "YAML Config",
+  "mod_id_or_slug": "yaml-config",
+  "author_or_team": "Patbox",
+  "version": "19.1.0",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Library for loading and managing YAML-based configuration files.",
+  "core_features": [
+    {
+      "feature": "Parses and loads YAML configuration files",
+      "source": "https://modrinth.com/mod/yaml-config"
+    },
+    {
+      "feature": "Provides API for other mods to use YAML configs",
+      "source": "https://modrinth.com/mod/yaml-config"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Library/API mod; does not directly affect gameplay."
+  ],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+{
+  "mod": "Yet Another Config Lib v3",
+  "mod_id_or_slug": "yet-another-config-lib",
+  "author_or_team": "shedaniel",
+  "version": "3.8.2",
+  "mc_version": "1.21.11",
+  "loader": "Fabric",
+  "summary": "Config library providing APIs and UI for creating and managing mod configurations.",
+  "core_features": [
+    {
+      "feature": "API for defining structured configuration options",
+      "source": "https://modrinth.com/mod/yacl"
+    },
+    {
+      "feature": "Auto-generated in-game config screens",
+      "source": "https://modrinth.com/mod/yacl"
+    },
+    {
+      "feature": "Supports validation and serialization of config data",
+      "source": "https://modrinth.com/mod/yacl"
+    }
+  ],
+  "non_gameplay_notes": [
+    "Library/API mod; used as a dependency by many mods."
+  ],
+  "verification_notes": [],
+  "last_checked": "2026-04-01"
+}
+]
+
+

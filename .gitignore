@@ -1,0 +1,15 @@
+# Logs
+logs/
+crash-reports/
+
+# Cache / temporär
+.cache/
+temp/
+
+# Saves (optional, meist nicht gewollt)
+saves/
+
+# Benutzer-spezifisch
+options.txt
+usernamecache.json
+usercache.json

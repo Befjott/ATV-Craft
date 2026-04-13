@@ -1,0 +1,620 @@
+[
+  {
+    "name": "BadOptimizations",
+    "version": "2.4.1",
+    "reason": "Performance/optimization mod that improves CPU usage and rendering without changing gameplay mechanics.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Biomes O' Plenty",
+    "version": "21.11.0.32",
+    "reason": "Adds new biomes, blocks, and resources that affect exploration, survival choices, and world interaction.",
+    "decision": "Include"
+  },
+  {
+    "name": "Camerapture",
+    "version": "1.10.12+mc1.21.11",
+    "reason": "Primarily an in-game photography and screenshot management feature; cosmetic/creative utility with no direct gameplay impact described.",
+    "decision": "Include"
+  },
+  {
+    "name": "Chunky",
+    "version": "1.4.55",
+    "reason": "World pre-generation and admin utility focused on reducing lag; does not directly change gameplay.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Clumps",
+    "version": "29.0.0.1",
+    "reason": "Optimization mod that merges XP orbs to reduce lag without changing XP gain or progression.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "CorgiLib",
+    "version": "9.0.0.0",
+    "reason": "Shared library/dependency with no standalone gameplay features.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "CreativeCore",
+    "version": "2.14.11",
+    "reason": "Core library providing APIs and utilities for other mods.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Distant Horizons",
+    "version": "2.4.5-b",
+    "reason": "Primarily visual distant terrain rendering; no direct gameplay mechanics described.",
+    "decision": "Include"
+  },
+  {
+    "name": "Forge Config API Port",
+    "version": "v21.11.1",
+    "reason": "Configuration API/library for other mods.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "GlitchCore",
+    "version": "21.11.0.4",
+    "reason": "Shared library used by other mods; no direct gameplay content.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Let Me Despawn",
+    "version": "1.6.2",
+    "reason": "Changes mob despawn logic, affects entity lifecycle and performance.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Mouse Tweaks",
+    "version": "2.30",
+    "reason": "Inventory interaction QoL that changes player actions and item management decisions.",
+    "decision": "Include"
+  },
+  {
+    "name": "Nature's Compass",
+    "version": "2.5.0",
+    "reason": "Adds a biome-locating tool that directly affects exploration decisions and navigation.",
+    "decision": "Include"
+  },
+  {
+    "name": "Oh The Biomes We've Gone",
+    "version": "4.3.3",
+    "reason": "Adds new biomes, terrain, and resources that affect exploration and world interaction.",
+    "decision": "Include"
+  },
+  {
+    "name": "Oh The Trees You'll Grow",
+    "version": "9.0.0",
+    "reason": "Adds new tree types and naturally generated wood resources, affecting world interaction and resource gathering.",
+    "decision": "Include"
+  },
+  {
+    "name": "Explorers Compass",
+    "version": "2.5.0",
+    "reason": "Adds structure-locating functionality that directly affects exploration and progression.",
+    "decision": "Include"
+  },
+  {
+    "name": "Puzzles Lib",
+    "version": "2.3.0+1.21.11",
+    "reason": "Shared library/dependency with no standalone gameplay features.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Roughly Enough Items (REI)",
+    "version": "21.11.814",
+    "reason": "Recipe viewer changes how players discover recipes and plan crafting, matching the stated include criteria.",
+    "decision": "Include"
+  },
+  {
+    "name": "Serene Seasons",
+    "version": "21.11.0.4",
+    "reason": "Adds seasonal mechanics that affect crop growth timing and survival-related decisions.",
+    "decision": "Include"
+  },
+  {
+    "name": "TerraBlender",
+    "version": "21.11.0.0",
+    "reason": "Worldgen library used by biome mods; does not itself add standalone gameplay content.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Terralith",
+    "version": "2.6.0",
+    "reason": "Overhauls terrain and biome variants, affecting exploration and world interaction.",
+    "decision": "Include"
+  },
+  {
+    "name": "Visual Workbench",
+    "version": "21.11.1",
+    "reason": "Mostly visual/multiplayer UX based on provided description; no clear direct gameplay change beyond presentation.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Arc",
+    "version": "19.1.1",
+    "reason": "Supporting library/dependency with no standalone gameplay features.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Architectury API",
+    "version": "19.0.1",
+    "reason": "Cross-platform API/library mod.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Areas",
+    "version": "6.2",
+    "reason": "Region claiming and permission control directly affect player interaction and world access.",
+    "decision": "Include"
+  },
+  {
+    "name": "Bad Packets",
+    "version": "0.11.2",
+    "reason": "Networking library for other mods.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Balm",
+    "version": "21.11.8",
+    "reason": "Shared API/library dependency.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Chisel",
+    "version": "2.2.0",
+    "reason": "Adds block transformation mechanics and new building interactions for players.",
+    "decision": "Include"
+  },
+  {
+    "name": "ClientSort",
+    "version": "2.2.1",
+    "reason": "Inventory sorting changes player item-management actions and decisions.",
+    "decision": "Include"
+  },
+  {
+    "name": "Cloth Config API",
+    "version": "21.11.153",
+    "reason": "Configuration GUI framework/library.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Cobweb",
+    "version": "1.4.0",
+    "reason": "Utility/library mod with no standalone gameplay features.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Collective",
+    "version": "8.13",
+    "reason": "Library dependency used by Serilum mods.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Comforts",
+    "version": "14.0.2",
+    "reason": "Adds sleeping bags and hammocks that change resting, respawn, and survival behavior.",
+    "decision": "Include"
+  },
+  {
+    "name": "CristelLib",
+    "version": "3.1.0",
+    "reason": "Library/dependency with no direct gameplay impact.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Cryonic Config",
+    "version": "1.0.0",
+    "reason": "Configuration library for other mods.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Deimos",
+    "version": "2.5",
+    "reason": "Framework/library dependency with no standalone gameplay features.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Double Doors",
+    "version": "7.2",
+    "reason": "Changes door interaction behavior, affecting player actions in the world.",
+    "decision": "Include"
+  },
+  {
+    "name": "Dungeons and Taverns",
+    "version": "v5.1.0",
+    "reason": "Adds new generated structures, loot opportunities, and exploration content.",
+    "decision": "Include"
+  },
+  {
+    "name": "Dynamic FPS",
+    "version": "3.11.4",
+    "reason": "Performance optimization that reduces resource usage when unfocused.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Fabric API",
+    "version": "0.141.3",
+    "reason": "Core API/library dependency for Fabric mods.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Fabric Language Kotlin",
+    "version": "1.13.10+kotlin.2.3.20",
+    "reason": "Language/runtime support dependency for Kotlin mods.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "FerriteCore",
+    "version": "8.2.0",
+    "reason": "Memory optimization mod with no gameplay changes.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Fixed Anvil Repair Cost",
+    "version": "3.5",
+    "reason": "Changes anvil repair cost scaling and therefore affects progression and item maintenance decisions.",
+    "decision": "Include"
+  },
+  {
+    "name": "Fusion",
+    "version": "1.2.12a",
+    "reason": "Library/utility dependency with no standalone gameplay content.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Fzzy Config",
+    "version": "0.7.6",
+    "reason": "Configuration library for other mods.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Gardener's Dream",
+    "version": "2.4.1",
+    "reason": "Adds crops and farming mechanics that affect agriculture and resource production.",
+    "decision": "Include"
+  },
+  {
+    "name": "GeckoLib",
+    "version": "5.4.5",
+    "reason": "Animation/rendering library used by other mods.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "GOML (Get Off My Lawn)",
+    "version": "1.19.1+1.21.11",
+    "reason": "Land protection mechanics directly affect player interaction and permissions in the world.",
+    "decision": "Include"
+  },
+  {
+    "name": "Gravestones",
+    "version": "1.3.0+A",
+    "reason": "Changes death and item recovery mechanics.",
+    "decision": "Include"
+  },
+  {
+    "name": "GUI Followers",
+    "version": "4.2",
+    "reason": "Provided description is purely UI/visual enhancement with no direct gameplay impact described.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Harvest with Ease",
+    "version": "9.4.0",
+    "reason": "Changes farming actions by allowing harvest-and-replant in one interaction.",
+    "decision": "Include"
+  },
+  {
+    "name": "Item Restrictions",
+    "version": "19.1.0",
+    "reason": "Directly restricts item usage and can gate progression.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Jobs Plus",
+    "version": "19.1.0",
+    "reason": "Adds profession-based progression and rewards.",
+    "decision": "Include"
+  },
+  {
+    "name": "Jobs Plus Tools",
+    "version": "19.1.2",
+    "reason": "Extends Jobs Plus progression mechanics with additional tool-related functionality.",
+    "decision": "Include"
+  },
+  {
+    "name": "Just Zoom",
+    "version": "2.1.3",
+    "reason": "Client-side visual utility for zooming; major gameplay effect in the possibility to see far away objects and entities.",
+    "decision": "Include"
+  },
+  {
+    "name": "Konkrete",
+    "version": "1.9.18",
+    "reason": "Library/dependency with no direct gameplay content.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Krypton",
+    "version": "0.2.10",
+    "reason": "Networking optimization mod with no gameplay changes.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "LambDynamicLights",
+    "version": "4.9.1",
+    "reason": "Client-side visual lighting enhancement; described as visual rather than mechanical.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "LibJF",
+    "version": "3.19.10",
+    "reason": "Utility library with no standalone gameplay features.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Lithium",
+    "version": "0.21.4",
+    "reason": "Performance optimization mod improving simulation efficiency without adding gameplay content.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Lithostitched",
+    "version": "1.6.1",
+    "reason": "Backend worldgen integration utility used by other mods rather than standalone gameplay content.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "MaLiLib",
+    "version": "0.27.7",
+    "reason": "Library mod providing config GUIs and keybind utilities.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Mod Menu",
+    "version": "17.0.0",
+    "reason": "UI utility for listing mods and opening config screens.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "More Discs",
+    "version": "35.1",
+    "reason": "Adds collectible content obtainable through gameplay, affecting collection goals and item acquisition.",
+    "decision": "Include"
+  },
+  {
+    "name": "NetherPortalFix",
+    "version": "21.11.2",
+    "reason": "Fixes portal destination behavior, directly affecting world travel and player movement between dimensions.",
+    "decision": "Include"
+  },
+  {
+    "name": "No Telemetry",
+    "version": "1.10.0",
+    "reason": "Disables analytics/telemetry only.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Not Enough Animations",
+    "version": "1.11.3",
+    "reason": "Animation enhancement only; no direct gameplay mechanics described.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Open Parties and Claims",
+    "version": "0.25.10",
+    "reason": "Adds parties and chunk claiming, directly affecting multiplayer interaction and world control.",
+    "decision": "Include"
+  },
+  {
+    "name": "ParticleRain",
+    "version": "v4-beta.8+1.21.11",
+    "reason": "Weather visual overhaul only.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Particular ✨ Reforged",
+    "version": "1.3.2",
+    "reason": "Visual ambience and particle effects only.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Text Placeholder API",
+    "version": "2.8.2+1.21.10",
+    "reason": "API/library for text placeholders.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "PneumonoCore",
+    "version": "1.3.0+1.21.11+A",
+    "reason": "Core library required by dependent mods.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Polymer",
+    "version": "0.15.2+1.21.11",
+    "reason": "Described as a library enabling server-side custom content rather than standalone gameplay content itself.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Puzzle",
+    "version": "2.3.0",
+    "reason": "Visual/resource pack configuration utility; no direct gameplay impact described.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Random Bone Meal Flowers",
+    "version": "4.7",
+    "reason": "Changes bone meal outcomes and flower spawning rules, affecting resource acquisition and world interaction.",
+    "decision": "Include"
+  },
+  {
+    "name": "Random Sheep Colours",
+    "version": "3.5",
+    "reason": "Changes naturally spawned sheep wool colors, affecting obtainable resources.",
+    "decision": "Include"
+  },
+  {
+    "name": "Random Village Names",
+    "version": "4.0",
+    "reason": "Only assigns names to villages based on provided description; no direct gameplay impact described.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Rechiseled",
+    "version": "1.2.4",
+    "reason": "Adds block transformation mechanics and building interactions for players.",
+    "decision": "Include"
+  },
+  {
+    "name": "SeasonHud",
+    "version": "2.0.3",
+    "reason": "HUD display only, showing current season; informational overlay without direct gameplay change itself.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Silk",
+    "version": "1.11.5",
+    "reason": "Library/API dependency.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Skin Shuffle",
+    "version": "2.10.2",
+    "reason": "Purely cosmetic skin management.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Sodium Extra",
+    "version": "0.8.3",
+    "reason": "Graphics settings/client enhancement tied to Sodium; no direct gameplay impact.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Sodium",
+    "version": "0.8.7",
+    "reason": "Rendering optimization/performance mod.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Sound Physics Remastered",
+    "version": "1.5.1",
+    "reason": "Audio realism enhancement only; no direct gameplay mechanics described.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "SuperMartijn642's Config Lib",
+    "version": "1.1.8",
+    "reason": "Configuration library for mods.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "SuperMartijn642's Core Lib",
+    "version": "1.1.21",
+    "reason": "Core library/dependency.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Towns and Towers",
+    "version": "1.13.9",
+    "reason": "Changes village and outpost generation, affecting exploration and structure interaction.",
+    "decision": "Include"
+  },
+  {
+    "name": "TCDCommons",
+    "version": "5.1.0",
+    "reason": "Shared library/API for other mods.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Traveler's Backpack",
+    "version": "10.11.6",
+    "reason": "Adds wearable storage, fluid tanks, and utility features that directly change survival and inventory management.",
+    "decision": "Include"
+  },
+  {
+    "name": "UI Lib",
+    "version": "19.1.0",
+    "reason": "UI framework/library dependency.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Universal Shops",
+    "version": "1.13.0",
+    "reason": "Adds shop systems and trading mechanics that directly affect player interaction and economy.",
+    "decision": "Include"
+  },
+  {
+    "name": "Vanilla Refresh",
+    "version": "1.4.30",
+    "reason": "Description says it adds configurable gameplay tweaks, but specific direct gameplay changes are not provided.",
+    "decision": "Include"
+  },
+  {
+    "name": "VeinMiner (Client)",
+    "version": "2.6.0",
+    "reason": "Client component for a gameplay mechanic; provided description includes vein mining input handling tied to block breaking behavior.",
+    "decision": "Include"
+  },
+  {
+    "name": "VeinMiner (Fabric)",
+    "version": "2.5.2",
+    "reason": "Adds vein mining, directly changing block breaking and resource gathering actions.",
+    "decision": "Include"
+  },
+  {
+    "name": "Village Bell Recipe",
+    "version": "3.7",
+    "reason": "Adds a new crafting recipe, changing acquisition and progression options for bells.",
+    "decision": "Include"
+  },
+  {
+    "name": "Villager Death Messages",
+    "version": "3.8",
+    "reason": "Provides informational chat notifications only; no direct gameplay mechanic change described.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Simple Voice Chat",
+    "version": "2.6.12",
+    "reason": "Adds in-game proximity communication that directly changes player interaction.",
+    "decision": "Include"
+  },
+  {
+    "name": "Waystones",
+    "version": "21.11.9",
+    "reason": "Adds teleportation mechanics that directly affect travel, progression, and world interaction.",
+    "decision": "Include"
+  },
+  {
+    "name": "WTHIT",
+    "version": "18.2.2",
+    "reason": "Contextual information overlay changes how players identify and interact with blocks/entities.",
+    "decision": "Include"
+  },
+  {
+    "name": "Xaero's Minimap",
+    "version": "25.3.10",
+    "reason": "Minimap and waypoints are explicitly listed in the include criteria.",
+    "decision": "Include"
+  },
+  {
+    "name": "Xaero's World Map",
+    "version": "1.40.11",
+    "reason": "World map and waypoint support are explicitly listed in the include criteria.",
+    "decision": "Include"
+  },
+  {
+    "name": "YAML Config",
+    "version": "19.1.0",
+    "reason": "Configuration library/API.",
+    "decision": "Exclude"
+  },
+  {
+    "name": "Yet Another Config Lib v3",
+    "version": "3.8.2",
+    "reason": "Configuration library/API.",
+    "decision": "Exclude"
+  }
+]

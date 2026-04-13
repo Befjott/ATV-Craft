@@ -1,0 +1,1256 @@
+{
+  "mods": [
+    {
+      "mod": "Biomes O' Plenty",
+      "version": "21.11.0.32",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Expands world generation with many new biomes, each adding unique blocks, vegetation, and resources that influence exploration and survival.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Adds a large variety of new biomes with unique terrain, flora, and resources.",
+        "Introduces biome-specific blocks and materials used in crafting and building.",
+        "Integrates with world generation to distribute new biomes naturally across dimensions."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Requires TerraBlender for biome generation integration in modern versions."
+      ],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided.",
+        "Fabric support and exact 1.21.11 version compatibility should be confirmed against the specific release build."
+      ]
+    },
+    {
+      "mod": "Camerapture",
+      "version": "1.10.12+mc1.21.11",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds in-game photography mechanics allowing players to take, store, and manage screenshots as collectible items with organization tools.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Allows players to capture in-game screenshots using an in-game camera item/system.",
+        "Stores captured images as items or records that can be managed and viewed later.",
+        "Provides UI for browsing and organizing captured images."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided.",
+        "GitHub repository attribution is unclear from mod listing; exact upstream source should be confirmed."
+      ]
+    },
+    {
+      "mod": "Distant Horizons",
+      "version": "2.4.5-b",
+      "mc_version": "1.21.11",
+      "loader": "Fabric/NeoForge",
+      "summary": "Adds LOD distant terrain rendering, letting players see far beyond normal view distance with simplified geometry.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Adds LOD-based distant terrain rendering beyond vanilla render distance.",
+        "Generates simplified distant chunks to extend visible horizon."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided.",
+        "Fabric/NeoForge hybrid build; exact feature parity may vary by loader."
+      ]
+    },
+    {
+      "mod": "Mouse Tweaks",
+      "version": "2.30",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Improves inventory interaction by adding enhanced mouse dragging, scrolling, and item transfer controls for faster inventory management.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Drag and distribute items evenly across inventory slots.",
+        "Use scroll wheel to move items between inventories quickly.",
+        "Enhances click behavior for faster inventory sorting."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No explicit Mouse Tweaks keybinds present in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Nature's Compass",
+      "version": "2.5.0",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds a compass tool that lets players locate biomes by selecting them from a list and tracking direction and distance.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "GUI-based biome selection system for searching specific biomes.",
+        "Provides directional and distance tracking to the chosen biome."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Effectiveness depends on installed biome/worldgen mods."
+      ],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt (mechanic is item-based).",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Oh The Biomes We've Gone",
+      "version": "4.3.3",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Expands world generation with numerous new biomes, adding unique terrain, blocks, and plants that affect exploration and building.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Introduces numerous custom biomes with distinct visual and environmental characteristics.",
+        "Adds biome-specific blocks, plants, and materials.",
+        "Integrates into world generation to distribute new biomes naturally."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Requires biome integration libraries for proper generation (e.g., TerraBlender)."
+      ],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Oh The Trees You'll Grow",
+      "version": "9.0.0",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds new tree types and wood variants integrated into world generation, expanding building materials and biome variety.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Adds new tree species with unique wood types and textures.",
+        "Integrates custom trees into biome-based world generation."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Worldgen compatibility depends on installed biome mods and libraries."
+      ],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Explorers Compass",
+      "version": "2.5.0",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds a compass that lets players locate structures by selecting a target and tracking its direction and distance.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Allows players to search for and select world structures via a GUI.",
+        "Displays direction and distance to the selected structure."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Structure availability depends on installed worldgen mods and vanilla structures."
+      ],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt (mechanic is item-based).",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Roughly Enough Items (REI)",
+      "version": "21.11.814",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Item and recipe viewer that lets players browse crafting recipes, usages, and item lists directly in-game.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Displays all items in a searchable in-game GUI.",
+        "Shows crafting recipes and item usage information.",
+        "Supports recipe transfer into crafting interfaces."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No REI keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Serene Seasons",
+      "version": "21.11.0.4",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds a dynamic seasonal system that changes biome appearance, weather, and crop growth over time.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Implements a seasonal cycle that progresses over in-game time.",
+        "Alters biome visuals such as foliage color based on season.",
+        "Affects crop growth rates depending on seasonal conditions."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Requires compatibility with worldgen and crop mods for full effect."
+      ],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Terralith",
+      "version": "2.6.0",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Overhauls overworld terrain with enhanced landscapes and new biome variants while remaining largely vanilla-compatible.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Reworks overworld terrain generation with more varied landscapes.",
+        "Adds custom biome variants and terrain features without adding new blocks."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "May conflict or overlap with other worldgen mods depending on configuration."
+      ],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Areas",
+      "version": "6.2",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds region/area claiming and management tools enabling protected zones with permissions.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Allows players to define and claim regions in the world.",
+        "Provides permission control within claimed areas."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided.",
+        "Official repository not clearly documented; needs source verification."
+      ]
+    },
+    {
+      "mod": "Chisel",
+      "version": "2.2.0",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds tools and systems for transforming blocks into decorative variants for building customization.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Allows players to convert blocks into decorative variants.",
+        "Provides tool-based or GUI-based block transformation mechanics."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided.",
+        "Fabric implementation differs from original Forge Chisel; source repository unclear."
+      ]
+    },
+    {
+      "mod": "ClientSort",
+      "version": "2.2.1",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Provides client-side inventory sorting and organization features to arrange items in inventories and containers.",
+      "keybinds": [
+        {
+          "action": "clientsort.op.sort",
+          "default_key": "Mouse Middle",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "Inventory sort operation"
+        },
+        {
+          "action": "clientsort.edit",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "clientsort.cancelAuto",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "clientsort.op.stackFill",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "clientsort.op.matchTransfer",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "clientsort.op.transfer",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        }
+      ],
+      "commands": [],
+      "major_gameplay_features": [
+        "Adds sorting buttons and shortcuts for inventories.",
+        "Automatically organizes items by type, name, or other criteria."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "Action details per key are inferred from key IDs; no official keybind documentation provided."
+      ]
+    },
+    {
+      "mod": "Comforts",
+      "version": "14.0.2",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds sleeping bags and hammocks that allow players to skip night or set temporary respawn points.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Adds sleeping bags that allow skipping night without setting spawn.",
+        "Adds hammocks for resting and setting spawn points when used."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Double Doors",
+      "version": "7.2",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Synchronizes adjacent doors so interacting with one operates the pair.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Automatically opens or closes adjacent doors together.",
+        "Detects connected door pairs to synchronize interactions."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Dungeons and Taverns",
+      "version": "v5.1.0",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Expands world generation by adding new structures like dungeons and taverns.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Adds custom dungeon structures to world generation.",
+        "Introduces tavern structures with loot and NPC-like environments."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Structure placement depends on compatibility with other worldgen mods."
+      ],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Fixed Anvil Repair Cost",
+      "version": "3.5",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adjusts anvil repair mechanics to prevent excessively increasing repair costs.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Modifies anvil repair cost scaling behavior.",
+        "Prevents repair costs from becoming prohibitively expensive too quickly."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Gardener's Dream",
+      "version": "2.4.1",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Expands farming and gardening with additional crops and mechanics affecting agriculture.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Adds new plantable crops and gardening-related content.",
+        "Introduces mechanics that affect crop growth and farming interactions."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided.",
+        "Official repository not clearly documented."
+      ]
+    },
+    {
+      "mod": "GOML (Get Off My Lawn)",
+      "version": "1.19.1+1.21.11",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Provides land protection mechanics that prevent unwanted modifications in protected areas.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Allows protection of specific land areas from modification.",
+        "Restricts building, breaking, or interaction within protected zones."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided.",
+        "Official repository not clearly specified."
+      ]
+    },
+    {
+      "mod": "Gravestones",
+      "version": "1.3.0+A",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Creates gravestones at player death that store dropped items for recovery.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Places a gravestone at the location of player death.",
+        "Stores player inventory items in the gravestone for retrieval."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided (may have options for retention rules)."
+      ]
+    },
+    {
+      "mod": "Harvest with Ease",
+      "version": "9.4.0",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Allows players to harvest and replant crops in a single action.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Enables one-click harvesting of mature crops.",
+        "Automatically replants crops after harvesting."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt (action is contextual).",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Jobs Plus",
+      "version": "19.1.0",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds a job/progression system where players select professions and earn rewards through activities.",
+      "keybinds": [
+        {
+          "action": "jobsplus.open_menu",
+          "default_key": "J",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "Opens Jobs Plus menu"
+        }
+      ],
+      "commands": [],
+      "major_gameplay_features": [
+        "Allows players to choose from different jobs/professions.",
+        "Rewards players with progression benefits for job-related tasks."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No commands documented in provided sources.",
+        "No config excerpts provided.",
+        "Repository and documentation not clearly specified."
+      ]
+    },
+    {
+      "mod": "Jobs Plus Tools",
+      "version": "19.1.2",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Addon for Jobs Plus expanding tool interactions tied to job progression.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Adds tool-related integrations for job progression systems.",
+        "Extends functionality of Jobs Plus with additional mechanics."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Requires Jobs Plus to function."
+      ],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Just Zoom",
+      "version": "2.1.3",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds a configurable zoom key to zoom the field of view for better observation.",
+      "keybinds": [
+        {
+          "action": "Zoom",
+          "default_key": "Z",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        }
+      ],
+      "commands": [],
+      "major_gameplay_features": [
+        "Provides a zoom function triggered by a keybind.",
+        "Allows adjustable zoom levels (configured in mod settings; not provided here)."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "More Discs",
+      "version": "35.1",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds additional music discs obtainable through gameplay, expanding collection goals.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Introduces new music discs to the game.",
+        "Adds collectible audio content obtainable through gameplay."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "Acquisition methods may depend on datapacks/config; no config excerpts provided.",
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources."
+      ]
+    },
+    {
+      "mod": "NetherPortalFix",
+      "version": "21.11.2",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Fixes incorrect portal teleportation destinations, especially in multiplayer.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Ensures correct Nether↔Overworld portal linking in multiplayer."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided.",
+        "CurseForge indicates a newer Fabric build (21.11.3) for MC 1.21.11; this installation is one patch earlier."
+      ]
+    },
+    {
+      "mod": "Open Parties and Claims",
+      "version": "0.25.10",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Lets players form parties and claim chunks, integrating with Xaero’s minimap/world map.",
+      "keybinds": [
+        {
+          "action": "Open Parties and Claims menu",
+          "default_key": "Apostrophe",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "Key id: xaero_pac_key_open_menu"
+        }
+      ],
+      "commands": [],
+      "major_gameplay_features": [
+        "Chunk claiming system for player-controlled areas.",
+        "Player parties support for grouping.",
+        "Integration with Xaero’s minimap/world map."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Integrates with Xaero’s Minimap/World Map for claim/party overlays."
+      ],
+      "caveats_or_unknowns": [
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Random Bone Meal Flowers",
+      "version": "4.7",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Randomizes the flowers spawned by bone meal, allowing all (including modded) types to spawn.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Bone meal spawns any flower regardless of biome.",
+        "Blacklist config to prevent specific flowers from spawning."
+      ],
+      "config_toggles_affecting_gameplay": [
+        "unknown file: blacklist – prevents specific flowers from spawning"
+      ],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "Exact config file/keys not provided.",
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources."
+      ]
+    },
+    {
+      "mod": "Random Sheep Colours",
+      "version": "3.5",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Gives newly spawned sheep random wool colors from a configurable list.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Sheep spawn with random fleece colors."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "Config details not provided.",
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources."
+      ]
+    },
+    {
+      "mod": "Rechiseled",
+      "version": "1.2.4",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Allows chiseling blocks into decorative variants with connected textures.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Chisel blocks into decorative variants with connected textures.",
+        "Provides a chiseling GUI with search, filters, and preview."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Towns and Towers",
+      "version": "1.13.9",
+      "mc_version": "1.21.11",
+      "loader": "Fabric/NeoForge",
+      "summary": "Enhances villages and pillager outposts with new structures, variants, and layouts.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Replaces and expands vanilla villages with new structures and layouts.",
+        "Adds biome-based village variants.",
+        "Enhances pillager outposts with additional structure variety."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Traveler's Backpack",
+      "version": "10.11.6",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds wearable backpacks with inventory storage, fluid tanks, and utility features.",
+      "keybinds": [
+        {
+          "action": "travelersbackpack.inventory",
+          "default_key": "K",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "Open backpack inventory"
+        },
+        {
+          "action": "travelersbackpack.cycle_tool",
+          "default_key": "Z",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "travelersbackpack.sort",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "travelersbackpack.ability",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "travelersbackpack.toggle_upgrade_0",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "travelersbackpack.toggle_upgrade_1",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "travelersbackpack.toggle_upgrade_2",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "travelersbackpack.toggle_upgrade_3",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        }
+      ],
+      "commands": [],
+      "major_gameplay_features": [
+        "Wearable backpack item with its own inventory.",
+        "Integrated fluid tanks for water and other fluids.",
+        "Built-in crafting and utility functions (e.g., sleeping bag, tools)."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Universal Shops",
+      "version": "1.13.0",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds shop blocks and systems for player-to-player trading using currency or items.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Player-created shop blocks for buying and selling items.",
+        "Supports configurable currencies and trade rules.",
+        "GUI-based shop management interface."
+      ],
+      "config_toggles_affecting_gameplay": [
+        "unknown file: currency rules – define accepted currencies and trade settings"
+      ],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "Exact config file/keys not provided."
+      ]
+    },
+    {
+      "mod": "Vanilla Refresh",
+      "version": "1.4.30",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Enhances vanilla gameplay with configurable tweaks and QoL improvements (e.g., low-health warning sound).",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Adds configurable gameplay tweaks to improve vanilla mechanics.",
+        "Provides optional changes rather than overhaul mechanics."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "Specific tweaks depend on configuration; no config excerpts provided.",
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources."
+      ]
+    },
+    {
+      "mod": "VeinMiner (Client)",
+      "version": "2.6.0",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Client-side component enabling vein mining input when paired with the server mod.",
+      "keybinds": [
+        {
+          "action": "veinminer-client.hold",
+          "default_key": "Y",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "Hold key to activate vein mining"
+        },
+        {
+          "action": "veinminer-client.toggle",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "Toggle activation"
+        }
+      ],
+      "commands": [],
+      "major_gameplay_features": [
+        "Detects connected blocks of the same type for vein mining.",
+        "Client-side input handling for triggering vein mining."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Requires server-side VeinMiner mod to function fully."
+      ],
+      "caveats_or_unknowns": [
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "VeinMiner (Fabric)",
+      "version": "2.5.2",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds vein mining mechanics allowing players to break connected blocks in a single action.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Breaks all connected blocks of the same type in one action.",
+        "Configurable tool and block restrictions.",
+        "Supports multiple modes and activation methods."
+      ],
+      "config_toggles_affecting_gameplay": [
+        "unknown file: block/tool restrictions – control what can be vein-mined"
+      ],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No client keybind entries for this module in options.txt (client keys are under VeinMiner (Client)).",
+        "No commands documented in provided sources.",
+        "Exact config file/keys not provided."
+      ]
+    },
+    {
+      "mod": "Village Bell Recipe",
+      "version": "3.7",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds a crafting recipe for the village bell, normally only obtainable via loot or trading.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Introduces a crafting recipe for the bell block."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Simple Voice Chat",
+      "version": "2.6.12",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds proximity-based in-game voice communication with groups and PTT.",
+      "keybinds": [
+        {
+          "action": "push_to_talk",
+          "default_key": "Mouse Button 5",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "whisper",
+          "default_key": "J",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "mute_microphone",
+          "default_key": "M",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "disable_voice_chat",
+          "default_key": "N",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "hide_icons",
+          "default_key": "H",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "voice_chat",
+          "default_key": "V",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "Open voice chat GUI"
+        },
+        {
+          "action": "voice_chat_settings",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "voice_chat_group",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "voice_chat_toggle_recording",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        },
+        {
+          "action": "voice_chat_adjust_volumes",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": ""
+        }
+      ],
+      "commands": [],
+      "major_gameplay_features": [
+        "Proximity voice chat with distance-based audio attenuation.",
+        "Push-to-talk and voice activation modes.",
+        "Group/party voice channels support."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Requires server-side installation for full functionality."
+      ],
+      "caveats_or_unknowns": [
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Waystones",
+      "version": "21.11.9",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds teleportation waystones that players can activate and travel between.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Placeable waystones that can be activated and renamed.",
+        "Teleportation between discovered waystones.",
+        "Uses warp scrolls or levels depending on configuration."
+      ],
+      "config_toggles_affecting_gameplay": [
+        "unknown file: teleport cost mode – choose warp scrolls vs XP levels"
+      ],
+      "dependencies_player_should_know": [],
+      "caveats_or_unknowns": [
+        "Exact config file/keys not provided.",
+        "No keybind entries found in options.txt.",
+        "No commands documented in provided sources."
+      ]
+    },
+    {
+      "mod": "WTHIT",
+      "version": "18.2.2",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Displays information about the targeted block or entity in a tooltip overlay.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [
+        "Shows block/entity information when looking at them.",
+        "Modular plugin system for extending displayed data.",
+        "Client-side HUD overlay for contextual info."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Supports plugins for other mods to display extra data."
+      ],
+      "caveats_or_unknowns": [
+        "No WTHIT keybind entries found in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Xaero's Minimap",
+      "version": "25.3.10",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Adds a customizable minimap showing terrain, entities, and waypoints.",
+      "keybinds": [
+        {
+          "action": "Enlarge map",
+          "default_key": "Z",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "key id: xaero_enlarge_map"
+        },
+        {
+          "action": "Minimap settings",
+          "default_key": "Y",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "key id: xaero_minimap_settings"
+        },
+        {
+          "action": "Open waypoints screen",
+          "default_key": "U",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "key id: xaero_waypoints_key"
+        },
+        {
+          "action": "New waypoint",
+          "default_key": "B",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "key id: xaero_new_waypoint (shared with world map waypoint system)"
+        },
+        {
+          "action": "Zoom in (minimap)",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "key id: xaero_zoom_in"
+        },
+        {
+          "action": "Zoom out (minimap)",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "key id: xaero_zoom_out"
+        },
+        {
+          "action": "Instant waypoint",
+          "default_key": "Keypad +",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "key id: xaero_instant_waypoint (shared with waypoint system)"
+        }
+      ],
+      "commands": [],
+      "major_gameplay_features": [
+        "Displays a real-time minimap of explored terrain.",
+        "Supports waypoints for marking locations.",
+        "Shows entities and player positions on the map."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Shares waypoints with Xaero’s World Map.",
+        "Integrates with Open Parties and Claims for claims/party overlays (via PAC integration)."
+      ],
+      "caveats_or_unknowns": [
+        "Several additional minimap toggles are unbound in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "Xaero's World Map",
+      "version": "1.40.11",
+      "mc_version": "1.21.11",
+      "loader": "Fabric",
+      "summary": "Provides a full world map that expands as the player explores, with waypoints and synchronization with the minimap.",
+      "keybinds": [
+        {
+          "action": "Open world map",
+          "default_key": "M",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "key id: xaero_open_map"
+        },
+        {
+          "action": "Open world map settings",
+          "default_key": "]",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "key id: xaero_open_settings"
+        },
+        {
+          "action": "Quick confirm",
+          "default_key": "Right Shift",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "key id: xaero_quick_confirm"
+        },
+        {
+          "action": "Zoom in (world map)",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "key id: xaero_map_zoom_in"
+        },
+        {
+          "action": "Zoom out (world map)",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "key id: xaero_map_zoom_out"
+        },
+        {
+          "action": "Toggle dimension",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "key id: xaero_toggle_dimension"
+        },
+        {
+          "action": "World map server settings",
+          "default_key": "unbound",
+          "category": "unknown",
+          "source": "options.txt",
+          "notes": "key id: xaero_world_map_server_settings"
+        }
+      ],
+      "commands": [],
+      "major_gameplay_features": [
+        "Exploration-based full world map that fills as chunks are discovered.",
+        "Waypoint synchronization with Xaero’s Minimap.",
+        "Zoomable and navigable large-scale map interface."
+      ],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Shares waypoints with Xaero’s Minimap.",
+        "Integrates with Open Parties and Claims for claims/party overlays (via PAC integration)."
+      ],
+      "caveats_or_unknowns": [
+        "Some world map keybinds are unbound in options.txt.",
+        "No commands documented in provided sources.",
+        "No config excerpts provided."
+      ]
+    },
+    {
+      "mod": "More Biome/Structure Mods Group Note",
+      "version": "n/a",
+      "mc_version": "1.21.11",
+      "loader": "n/a",
+      "summary": "This entry is only for clarity: worldgen mods in this pack include Biomes O' Plenty, Oh The Biomes We've Gone, Terralith, Dungeons and Taverns, and Towns and Towers.",
+      "keybinds": [],
+      "commands": [],
+      "major_gameplay_features": [],
+      "config_toggles_affecting_gameplay": [],
+      "dependencies_player_should_know": [
+        "Multiple worldgen mods together may interact; verify compatibility and load order in each mod’s documentation."
+      ],
+      "caveats_or_unknowns": [
+        "This is an informational grouping; not an actual mod."
+      ]
+    }
+  ],
+  "key_conflicts": [
+    "Z: Just Zoom – Zoom vs Traveler's Backpack – Cycle Tool vs Xaero's Minimap – Enlarge map",
+    "M: Simple Voice Chat – Mute Microphone vs Xaero's World Map – Open world map",
+    "J: Jobs Plus – Open Menu vs Simple Voice Chat – Whisper",
+    "Y: VeinMiner (Client) – Hold Activation vs Xaero's Minimap – Minimap Settings",
+    "H: Simple Voice Chat – Hide Icons vs Debug – Show Advanced Tooltips (F3+H) vs SeasonHUD – Options (mod excluded but key is present)",
+    "B: Xaero's Minimap – New Waypoint vs Debug – Show Hitboxes (F3+B)",
+    "V: Simple Voice Chat – Open Voice Chat vs Debug – Dump Version (F3+V)",
+    "N: Simple Voice Chat – Disable Voice Chat vs Debug – Spectate (F3+N)",
+    "Mouse Middle: ClientSort – Sort Operation vs Vanilla – Pick Block vs Spectator – Hotbar (Spectator only)"
+  ]
+}
