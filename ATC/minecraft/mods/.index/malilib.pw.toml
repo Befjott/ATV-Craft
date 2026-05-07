@@ -1,0 +1,17 @@
+filename = 'malilib-fabric-1.21.11-0.27.7.jar'
+name = 'MaLiLib'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.27.7'
+
+[download]
+hash = '447681a7419f29a73e78c15f0cbee6cc0f9e6753225c62c9be228506b4cb6fef546751c852a9f7a0423ccdf5b32c4dba15df1289c53c532857a8f30e2e68017a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GcWjdA9I/versions/5Ywu5uMw/malilib-fabric-1.21.11-0.27.7.jar'
+
+[update.modrinth]
+mod-id = 'GcWjdA9I'
+version = '5Ywu5uMw'

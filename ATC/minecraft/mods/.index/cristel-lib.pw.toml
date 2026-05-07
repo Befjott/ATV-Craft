@@ -1,0 +1,17 @@
+filename = 'cristellib-fabric-1.21.11-3.1.2.jar'
+name = 'Cristel Lib'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-1.21.11-3.1.2'
+
+[download]
+hash = '39b55242591208c3c1bbd0eb0c4fe719cdf1bd9356146bd1712af9a35f0765415b5aa01165c9133b1eb2d14c4ac181dbe1756669683df0aa911dab2bbd356a2b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cl223EMc/versions/yWdD26Oh/cristellib-fabric-1.21.11-3.1.2.jar'
+
+[update.modrinth]
+mod-id = 'cl223EMc'
+version = 'yWdD26Oh'

@@ -1,0 +1,17 @@
+filename = 'harvest-with-ease-fabric-1.21.11-9.4.0.jar'
+name = 'Harvest with ease'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '9.4.0'
+
+[download]
+hash = '12bd8fccf61b68bf2ae8c903b8aea583f29324b8ed2487b6e32d3b7917e96319c97c2c2572fba071761646a5ed58c48004e0cda0e5acd67182956a01fb237a88'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/W4Ajthd2/versions/89cktUq4/harvest-with-ease-fabric-1.21.11-9.4.0.jar'
+
+[update.modrinth]
+mod-id = 'W4Ajthd2'
+version = '89cktUq4'

@@ -1,0 +1,17 @@
+filename = 'randombonemealflowers-1.21.11-4.7.jar'
+name = 'Random Bone Meal Flowers'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.11-4.7-fabric+forge+neo'
+
+[download]
+hash = 'c8982f17ef27e4246377f3d400aef1f413dd86516681d5ef9f8c35e96d506e3472e24eb91a3b9deaabbfd7deb7e37ef30ec53b2637751fce352853f75c71fd0c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/17enPZMC/versions/xncSYvvy/randombonemealflowers-1.21.11-4.7.jar'
+
+[update.modrinth]
+mod-id = '17enPZMC'
+version = 'xncSYvvy'

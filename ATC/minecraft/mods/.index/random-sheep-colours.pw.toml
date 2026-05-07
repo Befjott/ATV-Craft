@@ -1,0 +1,17 @@
+filename = 'randomsheepcolours-1.21.11-3.5.jar'
+name = 'Random Sheep Colours'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.11-3.5-fabric+forge+neo'
+
+[download]
+hash = '1b049cf8ab5a214301dbbbbc65302016aa04deff0566cdb8f63e14bb3b4bd8bde6394aa1b8582b7ca519ff1f3d47fc18bdf8ebec9c101cc7a02350f85b4c9e26'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SvQDJzPJ/versions/XpsSIJ9c/randomsheepcolours-1.21.11-3.5.jar'
+
+[update.modrinth]
+mod-id = 'SvQDJzPJ'
+version = 'XpsSIJ9c'

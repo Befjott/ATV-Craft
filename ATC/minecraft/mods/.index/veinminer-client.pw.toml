@@ -1,0 +1,17 @@
+filename = 'veinminer-client-2.6.0.jar'
+name = 'Veinminer Hotkey'
+side = ''
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.6.0'
+
+[download]
+hash = '4c0c75231d0e430a9d5286d627ab80bcfc9f50d0063cdb76403712f3fafbc5a299ca3ec4eac5218c956f3b7a5975fff794525353b59ecdb9b25f2b0dd8c3b348'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/dxa0Bm8m/versions/nXzW7iHP/veinminer-client-2.6.0.jar'
+
+[update.modrinth]
+mod-id = 'dxa0Bm8m'
+version = 'nXzW7iHP'

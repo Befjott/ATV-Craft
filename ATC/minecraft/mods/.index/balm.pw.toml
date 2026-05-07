@@ -1,0 +1,17 @@
+filename = 'balm-fabric-1.21.11-21.11.8.jar'
+name = 'Balm'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.11', '1.21.11' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.11.8+fabric-1.21.11'
+
+[download]
+hash = '3d9af084e684e18152ea557cb8da92165f05d9ca7b9ee1c87db46a271681b7a1c0f23eab116cabe2734f1f445a75945168978d588f16ca785efe34e74216d826'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MBAkmtvl/versions/IYfoTfMp/balm-fabric-1.21.11-21.11.8.jar'
+
+[update.modrinth]
+mod-id = 'MBAkmtvl'
+version = 'IYfoTfMp'
